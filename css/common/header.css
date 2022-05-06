@@ -1,4 +1,6 @@
 
+
+
 .header {
   width: 100%;
   height: auto;
@@ -34,7 +36,7 @@
 }
 
 .header .top-header .top-inner .top-con form {
-  flex: 0 1 670px;
+  flex: 0 1 700px;
 }
 
 .header .top-header .top-inner .top-con form .search {
@@ -42,7 +44,7 @@
   height: auto;
   display: flex;
   justify-content: space-between;
-  border: 1px solid;
+  border: var(--main-border);
   border-radius: 50px;
   padding: 5px 20px;
   box-sizing: border-box;
@@ -59,16 +61,15 @@
   height: 20px;
   border: 0;
   outline: 0;
-  background: url(../img/icon_search.png) no-repeat 50%/cover;
+  background: url(../../img/icon_search.png) no-repeat 50%/cover;
 }
 
 .header .top-header .top-inner .top-con .goto {
-  flex: 0 1 183px;
+  width: auto;
 }
 
 .header .top-header .top-inner .top-con .goto ul {
   display: flex;
-  justify-content: space-between;
 }
 
 .header .top-header .top-inner .top-con .goto ul li:not(:last-child) {
@@ -96,6 +97,9 @@
 .header .top-header .top-inner .top-con .goto ul li:last-child {
   padding: 0 0 0 15px;
   box-sizing: border-box;
+}
+.header .top-header .top-inner .top-con .goto ul li a{
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 .header .top-header .top-inner .top-con .goto ul li img {
@@ -136,7 +140,7 @@
 .header .bottom-header .bottom-inner .bottom-gnb ul>li {
   height: 40px;
   line-height: 40px;
-  font-size: 18px;
+  font-size: 20px;
   position: relative;
   top: 0;
   left: 0;
@@ -144,7 +148,7 @@
 
 .header .bottom-header .bottom-inner .bottom-gnb ul>li a {
   font-size: inherit;
-
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 .header .bottom-header .bottom-inner .bottom-gnb ul>li ul.sub {
@@ -300,6 +304,7 @@
     cursor: pointer;
     line-height: 40px;
     font-size: 18px;
+    font-family: 'Do Hyeon', sans-serif;
   }
   
   

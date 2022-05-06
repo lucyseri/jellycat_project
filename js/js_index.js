@@ -9,9 +9,7 @@ const items=document.querySelector('.items');
 const itemsUl=items.querySelector('ul');
 const itemsUlLi=itemsUl.querySelectorAll('li');
 
-const gap1 = galleryUlLi[1].offsetLeft - galleryUlLi[0].offsetLeft;
-const gap2 = galleryUlLi[2].offsetLeft - galleryUlLi[0].offsetLeft;
-
+const gap1 = galleryUlLi[3].offsetLeft - galleryUlLi[2].offsetLeft;
 
 const arrBg = [];
 
@@ -42,6 +40,15 @@ function autoGallery() {
     gallery.style.left = goto;
     gallery.style.transition = 300 + "ms";
   }
+
+  galleryUlLi.forEach((element, index)=>{
+    if(i==index){
+      element.style.opacity="1";
+    }else{
+      element.style.opacity="0.3";
+
+    }
+  })
 
   itemsUlLi.forEach((el, idx)=>{
     let startNum=i-1;
