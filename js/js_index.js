@@ -1,6 +1,6 @@
 'use strict';
 
-
+//section1
 const gallery = document.querySelector('.gallery');
 const galleryUl = gallery.querySelector('ul');
 const galleryUlLi = galleryUl.querySelectorAll('li');
@@ -9,7 +9,7 @@ const items=document.querySelector('.items');
 const itemsUl=items.querySelector('ul');
 const itemsUlLi=itemsUl.querySelectorAll('li');
 
-const gap1 = galleryUlLi[3].offsetLeft - galleryUlLi[2].offsetLeft;
+const gap1 = galleryUlLi[1].offsetLeft - galleryUlLi[0].offsetLeft;
 const gap2 = galleryUlLi[2].offsetLeft - galleryUlLi[0].offsetLeft;
 
 
@@ -23,24 +23,19 @@ for (let i = 0; i < galleryUlLi.length; i++) {
 
 
 //2. autogallery & 해당 items에 배경색 주기
-let i = 1;
+let i = 0;
 
 function autoGallery() {
   i++;
 
   const goto = (-i * gap1) + 'px';
 
-  if (i <= 1) {
-    gallery.style.left = "-" + galleryUlLi[4].offsetLeft + "px";
+  if (i > galleryUlLi.length - 2) {
+
+    gallery.style.left = "-" + galleryUlLi[1].offsetLeft + "px";
     gallery.style.transition = 0 + "ms";
 
-    i = galleryUlLi.length - 2;
-  } else if (i > galleryUlLi.length - 2) {
-
-    gallery.style.left = "-" + gap2 + "px";
-    gallery.style.transition = 0 + "ms";
-
-    i = 2;
+    i = 1;
     setTimeout(autoGallery, 0);
 
   } else {
@@ -49,7 +44,7 @@ function autoGallery() {
   }
 
   itemsUlLi.forEach((el, idx)=>{
-    let startNum=i-2;
+    let startNum=i-1;
     if(i==galleryUlLi.length-2){
       startNum=0;
     }
@@ -90,7 +85,7 @@ function itemEvent(e){
       if(el==e.target){
         el.classList.add('on')
 
-          let idx2=idx+2;
+          let idx2=idx+1;
 
           const goto = (-idx2 * gap1) + 'px';
 
@@ -98,7 +93,7 @@ function itemEvent(e){
           gallery.style.transition = 300 + "ms";
 
         if(idx2>itemsUlLi.length-1){
-          idx2=idx+2;
+          idx2=idx+1;
         }
 
           i=idx2;

@@ -98,7 +98,7 @@
 }
 
 .container .inner-container .index-container .sections .section.sec1 .sec-con {
-  flex: 0 1 1360px;
+  flex: 0 1 1400px;
   height: 478px;
   position: relative;
   top: 0;
@@ -106,7 +106,7 @@
 }
 
 .container .inner-container .index-container .sections .section.sec1 .sec-con .gallery {
-  width: 673.5294%;
+  width: 560%;
   height: inherit;
   position: absolute;
   top: 0;
@@ -117,7 +117,7 @@
   width: 100%;
   height: inherit;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .container .inner-container .index-container .sections .section.sec1 .sec-con .gallery ul li {
@@ -126,6 +126,7 @@
   box-sizing: border-box;
   border-radius: 25px;
 }
+
 
 .container .inner-container .index-container .sections .section.sec1 .sec-con .bcon {
   width: 100%;
