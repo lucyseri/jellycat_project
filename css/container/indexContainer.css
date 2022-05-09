@@ -100,14 +100,14 @@
   justify-content: space-between;
 }
 .container .inner-container .index-container .sections .section.sec1 .sec-con .gallery-left{
-  flex: 0 1 340px;
+  flex: 0 1 280px;
   height: inherit;
   opacity: 0.5;
   z-index: 11;
   background-color: #fff;
 }
 .container .inner-container .index-container .sections .section.sec1 .sec-con .gallery-rigth{
-  flex: 0 1 340px;
+  flex: 0 1 280px;
   height: inherit;
   opacity: 0.5;
   z-index: 11;
