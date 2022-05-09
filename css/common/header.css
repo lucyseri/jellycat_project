@@ -152,13 +152,11 @@
 }
 
 .header .bottom-header .bottom-inner .bottom-gnb ul>li ul.sub {
+  width: 350%;
   display: block;
-  /* height: 0; */
-  /* top: -152px; */
   top: 30px;
   visibility: hidden;
   opacity: 0;
-  /* transition: all 0.2s; */
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -167,8 +165,8 @@
 
 .header .bottom-header .bottom-inner .bottom-gnb ul>li ul.sub li {
   /* display: block; */
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .header .bottom-header:hover .bottom-inner .bottom-gnb ul>li ul.sub {
@@ -298,32 +296,33 @@
   }
 
 
-  .header .bottom-header .bottom-inner .short-nav ul li {
+  .header .bottom-header .bottom-inner .short-nav ul>li {
     font-weight: bold;
     text-align: right;
     cursor: pointer;
     line-height: 40px;
-    font-size: 18px;
+    font-size: 20px;
+  }
+  .header .bottom-header .bottom-inner .short-nav ul>li a{
     font-family: 'Do Hyeon', sans-serif;
   }
-  
   
   .header .bottom-header .bottom-inner .short-nav ul>li ul.sub {
     width: 100%;
     height: auto;
     display: none;
   }
-  
-  .header .bottom-header .bottom-inner .short-nav ul>li:hover ul.sub {
-    display: block;
-  }
+
   .header .bottom-header .bottom-inner .short-nav ul>li:hover {
-    font-size: 20px;
+    letter-spacing: 3px;
   }
   
   
   .header .bottom-header .bottom-inner .short-nav ul>li:hover ul.sub li {
+    line-height: 30px;
     text-align: right;
+    font-weight: lighter;
+    font-size: 18px;
   }
   
   .header .top-header .top-inner .top-con .goto {

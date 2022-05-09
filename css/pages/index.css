@@ -3,3 +3,6 @@
 @import url(../common/reset.css);
 @import url(../container/indexContainer.css);
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+:root{
+  --main-border: 1px solid #ccc;
+}
