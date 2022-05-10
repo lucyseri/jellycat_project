@@ -184,13 +184,19 @@ const shortBconUlLi=shortBconUl.querySelectorAll('li')
 
 sec4ArrowLeft.addEventListener('click', ()=>{
 
-  const sec4Gap=sec4ThumUlLi[1].offsetLeft-sec4ThumUlLi[0].offsetLeft;
-  const sec4Goto=(-sec4Gap) + 'px';
-  sec4Thum.style.left=sec4Goto;
+  const firstThum=sec4ThumUl.firstElementChild;
+  sec4ThumUl.appendChild(firstThum);
+
+  // const sec4Gap=sec4ThumUlLi[1].offsetLeft-sec4ThumUlLi[0].offsetLeft;
+  // const sec4Goto=(-sec4Gap) + 'px';
+  // sec4Thum.style.left=sec4Goto;
 })
 sec4ArrowRight.addEventListener('click', ()=>{
 
-  sec4Thum.style.left=0;
+  const lastThum=sec4ThumUl.lastElementChild;
+  sec4ThumUl.prepend(lastThum);
+
+  // sec4Thum.style.left=0;
 })
 
 sec4ThumUl.addEventListener('click', (e)=>{

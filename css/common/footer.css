@@ -58,3 +58,15 @@
     box-sizing: border-box;
   }
 }
+@media only screen and (max-width:390px){
+  .footer .top-footer .top-fcon{
+    flex-wrap: wrap;
+  }
+  .footer .top-footer .top-fcon span{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .footer .bottom-footer .bottom-fcon .mark .test{
+    flex: 0 0 88px;
+  }
+}
