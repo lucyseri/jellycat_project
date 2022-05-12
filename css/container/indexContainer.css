@@ -19,9 +19,11 @@
 }
 .sec-title .title-con h2.title {
   line-height: 40px;
-  font-size: 34px;
+  font-size: 38px;
   font-family: 'Do Hyeon', sans-serif;
+  color: #3d3d3d;
 }
+
 
 .sec-title .title-con span.more {
   display: block;
@@ -996,7 +998,7 @@
   .container .inner-container .index-container .sections  .section.sec2 {
     background-color: #ffffff;
   }
-  
+
   .container .inner-container .index-container .sections .section.sec2 .sec-con .sec2-slide .slider .slide-con {
     height: 600px;
   }
