@@ -1,7 +1,3 @@
-.header{
-  box-shadow: 0 0 0px 1px #a3a3a3;
-}
-
 
 .container{
   width: 100%;
@@ -109,4 +105,11 @@
   background-color:K #a3a3a3;
   flex: 1;
   text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: calc((100vh - 352px - 400px) / 2) 20px;
+    box-sizing: border-box;
+  }
 }

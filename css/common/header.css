@@ -339,3 +339,24 @@
     display: none;
   }
 }
+
+@media only screen and (max-width:390px){
+  .header .top-header .top-inner .top-con form {
+    padding: 20px 0 0;
+  }
+  .header .top-header .top-inner .top-con .icon-goto {
+    flex: 0 0 20px;
+  }
+
+  .header .top-header .top-inner .top-con .icon-goto ul {
+    display: block;
+  }
+
+  .header .top-header .top-inner .top-con .icon-goto ul li {
+    width: 100%;
+  }
+
+  .header .top-header .top-inner .top-con .icon-goto ul li:first-child {
+    display: none;
+  }
+}

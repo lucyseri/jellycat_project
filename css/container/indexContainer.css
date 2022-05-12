@@ -983,16 +983,20 @@
 
 @media only screen and (max-width:390px) {
   .container .inner-container .index-container .sections .section.sec1 {
-    padding: 0 0 40px;
+    padding: 0 0 20px;
     box-sizing: border-box;
   }
   .container .inner-container .index-container .sections .section.sec1 .sec-con {
-    height: 135px;
+    height: 150px;
   }
   .container .inner-container .index-container .sections .section.sec1 .sec-con .gallery-con .gallery ul li {
     border-radius: 0;
   }
 
+  .container .inner-container .index-container .sections  .section.sec2 {
+    background-color: #ffffff;
+  }
+  
   .container .inner-container .index-container .sections .section.sec2 .sec-con .sec2-slide .slider .slide-con {
     height: 600px;
   }

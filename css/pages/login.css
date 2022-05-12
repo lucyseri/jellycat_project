@@ -6,3 +6,6 @@
 :root{
   --main-border: 1px solid #ccc;
 }
+.header{
+  box-shadow: 0 0 0px 1px #a3a3a3;
+}
