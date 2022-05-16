@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 
 * {
   margin: 0;
@@ -21,4 +22,8 @@ ul, li{
 table, th, td{
   border: 1px solid;
   border-collapse: collapse;
+}
+
+:root{
+  --main-border: 1px solid #ccc;
 }
