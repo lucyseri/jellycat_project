@@ -8,10 +8,7 @@ main.container .inner-container{
   height: auto;
   padding-bottom: 40px;
 }
-main.container .inner-container .index-container{
-}
-main.container .inner-container .index-container section{
-}
+
 main.container .inner-container .index-container section .section{
   width: 100%;
   height: auto;
@@ -44,7 +41,6 @@ main.container .inner-container .index-container section .section .sec-con{
   text-align: center;
   line-height: 20px;
   padding: 5px 10px;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 
 main.container .inner-container .index-container section .section.sec1{
@@ -94,7 +90,6 @@ main.container .inner-container .index-container section .section.sec1 .sec-con 
 main.container .inner-container .index-container section .section.sec1 .sec-con .gallery ul li .banner-txt p.banner-content{
   line-height: 25px;
   font-size: 20px;
-  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   margin-top: 10px;
 }
@@ -241,7 +236,6 @@ main.container .inner-container .index-container section .section.sec2 .sec-con 
   padding: 10px;
   line-height: 20px;
   box-sizing: border-box;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 
 main.container .inner-container .index-container section .section.sec3{
@@ -286,19 +280,6 @@ main.container .inner-container .index-container section .section.sec3 .sec-con 
 main.container .inner-container .index-container section .section.sec3 .sec-con .sec3-best ul li .sec3-product p{
   padding: 20px 10px;
   line-height: 20px;
-  font-family: 'Noto Sans KR', sans-serif;
-}
-
-main.container .inner-container .index-container section .section.sec4{
-}
-main.container .inner-container .index-container section .section.sec4 .sec-con{
-  /* display: flex;
-  flex: 0 1 1240px;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
-}
-main.container .inner-container .index-container section .section.sec4 .sec-con .title{
 }
 main.container .inner-container .index-container section .section.sec4 .sec-con .sec4-top{
   width: 100%;
@@ -368,7 +349,6 @@ main.container .inner-container .index-container section .section.sec4 .sec-con 
   line-height: 20px;
   text-align: center;
   overflow: hidden;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 
 main.container .inner-container .index-container section .section.sec4 .sec-con .sec4-bottom{
@@ -446,7 +426,6 @@ main.container .inner-container .index-container section .section.sec4 .sec-con 
   font-size: 16px;
   font-weight: bold;
   line-height: 20px;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 main.container .inner-container .index-container section .section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.stars{
   line-height: 20px;
@@ -456,7 +435,6 @@ main.container .inner-container .index-container section .section.sec4 .sec-con 
 main.container .inner-container .index-container section .section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review{
   line-height: 20px;
   font-size: 14px;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .slide-con::-webkit-scrollbar{

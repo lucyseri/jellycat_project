@@ -22,8 +22,6 @@ main .inner-container .join-container h1.title{
 main .inner-container .join-container .form-con{
   width: 100%;
 }
-main .inner-container .join-container .form-con form{}
-main .inner-container .join-container .form-con form ul{}
 main .inner-container .join-container .form-con form ul li{
   width: 100%;
   height: auto;
@@ -45,15 +43,20 @@ main .inner-container .join-container .form-con form ul li input{
   font-size: 16px;
   flex: 0 1 300px;
   line-height: 24px;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 main .inner-container .join-container .form-con form ul li input#joinBtn{
-  background-color: #e6a29e;
   font-size: 18px;
   flex: 1;
   line-height: 50px;
   cursor: pointer;
   border-radius: 25px;
+  border: 1px solid #e6a29e;
+  box-sizing: border-box;
+  background-color: #e6a29e00;
+}
+main .inner-container .join-container .form-con form ul li input#joinBtn:hover{
+  background-color: #e6a29e;
+  font-weight: bolder;
 }
 main .inner-container .join-container .form-con form ul li span.check{
   padding: 5px 10px;
@@ -63,10 +66,8 @@ main .inner-container .join-container .form-con form ul li span.check{
   cursor: pointer;
   font-size: 12px;
   line-height: 14px;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 main .inner-container .join-container .form-con form ul li p.checked{
   line-height: 24px;
   font-size: 12px;
-  font-family: 'Noto Sans KR', sans-serif;
 }

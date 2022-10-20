@@ -22,8 +22,6 @@ main .inner-container .login-container h1.title{
 main .inner-container .login-container .form-con{
   width: 100%;
 }
-main .inner-container .login-container .form-con form{}
-main .inner-container .login-container .form-con form ul{}
 main .inner-container .login-container .form-con form ul li{
   width: 100%;
   height: auto;
@@ -36,7 +34,6 @@ main .inner-container .login-container .form-con form ul li input{
   outline: 0;
   font-size: 16px;
   line-height: 24px;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 main .inner-container .login-container .form-con form ul li:not(:last-child){
   border-bottom: 1px solid #ccc;
@@ -48,9 +45,14 @@ main .inner-container .login-container .form-con form ul li input#formBtn{
   font-size: 18px;
   line-height: 50px;
   text-align: center;
-  background-color: #e6a29e;
+  background-color: #e6a29e00;
   border-radius: 25px;
   cursor: pointer;
+  border: 1px solid #e6a29e;
+}
+main .inner-container .login-container .form-con form ul li input#formBtn:hover{
+  background-color: #e6a29e;
+  font-weight: bolder;
 }
 main .inner-container .login-container .option-con{
   width: 100%;
@@ -60,11 +62,9 @@ main .inner-container .login-container .option-con{
 main .inner-container .login-container .option-con .join-go a{
   font-size: 14px;
   color: #222;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 main .inner-container .login-container .option-con .search-con a{
   font-size: 14px;
   color: #222;
   margin-left: 20px;
-  font-family: 'Noto Sans KR', sans-serif;
 }
