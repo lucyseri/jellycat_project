@@ -3,3 +3,7 @@
 @import url(../common/reset.css);
 @import url(../container/joinContainer.css);
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+header{
+  border-bottom: 1px solid #ccc;
+}

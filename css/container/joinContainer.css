@@ -1,119 +1,72 @@
-.container {
-	width: 100%;
-	height: auto;
-	padding: 60px 0;
+main{
+  width: 100%;
+  height: auto;
+  padding: 60px 40px;
+  box-sizing: border-box;
 }
-
-.container .inner-container {
-	display: flex;
-	justify-content: center;
+main .inner-container{
+  display: flex;
+  justify-content: center;
 }
-
-.container .inner-container .join-container {
-	flex: 0 1 500px;
+main .inner-container .join-container{
+  flex: 0 1 500px;
 }
-
-.container .inner-container .join-container h1.title {
-	text-align: center;
-	color: #3d3d3d;
-	line-height: 40px;
+main .inner-container .join-container h1.title{
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 40px;
+  font-family: 'Asap Condensed', sans-serif;
+  font-weight: 700;
 }
-
-.container .inner-container .join-container .form-con {
-	padding: 20px 0;
+main .inner-container .join-container .form-con{
+  width: 100%;
 }
-
-.container .inner-container .join-container .form-con form ul li {
-	border-radius: 5px;
-	line-height: 50px;
-	margin: 20px 0;
-	padding: 0 20px;
+main .inner-container .join-container .form-con form{}
+main .inner-container .join-container .form-con form ul{}
+main .inner-container .join-container .form-con form ul li{
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.container .inner-container .join-container .form-con form ul li:not(:last-child) {
-	width: 100%;
-	background-color: #e4e4e4;
-	box-sizing: border-box;
+main .inner-container .join-container .form-con form ul li:not(:last-child){
+  border-bottom: 1px solid #ccc;
 }
-
-.container .inner-container .join-container .form-con form ul li input {
-	border: 0;
-	outline: 0;
-	background-color: #e4e4e4;
-	color: rgb(0, 0, 0);
+main .inner-container .join-container .form-con form ul li.joinBtn{
+  padding: 40px 0;
 }
-
-.container .inner-container .join-container .form-con form ul li input::placeholder {
-	color: rgb(0, 0, 0);
-
+main .inner-container .join-container .form-con form ul li input{
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  flex: 0 1 300px;
+  line-height: 24px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
-
-.container .inner-container .join-container .form-con form ul li.phone {
-	width: 100%;
-	box-sizing: border-box;
-	display: flex;
-	justify-content: space-between;
+main .inner-container .join-container .form-con form ul li input#joinBtn{
+  background-color: #e6a29e;
+  font-size: 18px;
+  flex: 1;
+  line-height: 50px;
+  cursor: pointer;
+  border-radius: 25px;
 }
-
-.container .inner-container .join-container .form-con form ul li.phone input {
-	flex: 0 1 200px;
-	line-height: 30px;
-	border: 0;
-	outline: 0;
-	margin: 10px 0;
-
+main .inner-container .join-container .form-con form ul li span.check{
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
-
-.container .inner-container .join-container .form-con form ul li.phone span.check {
-	font-size: 12px;
-	background-color: #fff;
-	border: 1px solid;
-	border-radius: 25px;
-	box-sizing: border-box;
-	line-height: 30px;
-	margin: 10px 0;
-	padding: 0 10px;
-}
-
-.container .inner-container .join-container .form-con form ul li.pw-check {
-	height: 50px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.container .inner-container .join-container .form-con form ul li.pw-check p.check {
-	font-size: 12px;
-	line-height: 30px;
-}
-
-.container .inner-container .join-container .form-con form ul li input#joinBtn {
-	background-color: inherit;
-	border: 0;
-	outline: 0;
-	font-weight: bold;
-	font-size: 20px;
-	cursor: pointer;
-	line-height: 30px;
-}
-
-.container .inner-container .join-container .form-con form ul li.joinBtn:hover {
-	background-color: #a3a3a3;
-}
-
-.container .inner-container .join-container .form-con form ul li.joinBtn {
-	width: 100%;
-	height: 50px;
-	border: 1px solid #a3a3a3;
-	margin: 20px 0;
-	line-height: 30px;
-	padding: 10px 0;
-	text-align: center;
-	box-sizing: border-box;
-}
-
-@media only screen and (max-width: 768px) {
-	.container {
-		padding: 60px 20px;
-		box-sizing: border-box;
-	}
+main .inner-container .join-container .form-con form ul li p.checked{
+  line-height: 24px;
+  font-size: 12px;
+  font-family: 'Noto Sans KR', sans-serif;
 }

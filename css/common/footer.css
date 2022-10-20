@@ -1,72 +1,69 @@
-
-.footer{
-  width: 100%;
-  height: auto;
-  background-color: #3d3d3d;
+/* footer */
+footer{
+  background-color: #292929;
 }
-.footer .top-footer{
-  width: 100%;
-  height: auto;
+footer .top-footer{
   display: flex;
   justify-content: center;
-  box-shadow: 0 0 0 1px #a3a3a3;
+  box-shadow: 0px 0px 0px 1px #fff;
 }
-.footer .top-footer .top-fcon{
+footer .top-footer .top-fcon{
   flex: 0 1 1240px;
+}
+footer .top-footer .top-fcon ul{
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  flex-wrap: wrap;
 }
-.footer .top-footer .top-fcon span{
+footer .top-footer .top-fcon ul li{
+  line-height: 20px;
   color: #fff;
-  font-size: 14px;
 }
-
-.footer .bottom-footer{
-  width: 100%;
-  height: auto;
+footer .top-footer .top-fcon ul li a{
+  color:inherit;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+footer .bottom-footer{
   display: flex;
   justify-content: center;
 }
-.footer .bottom-footer .bottom-fcon{
+footer .bottom-footer .bottom-fcon{
   flex: 0 1 1240px;
+}
+footer .bottom-footer .bottom-fcon address{
   padding: 20px 0;
-  font-size: 12px;
+  font-style: normal;
 }
-.footer .bottom-footer .bottom-fcon>p{
+footer .bottom-footer .bottom-fcon address p{
   color: #fff;
-  font-size: 14px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
-.footer .bottom-footer .bottom-fcon .mark{
+footer .bottom-footer .bottom-fcon .rights{
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 10px 0;
 }
-.footer .bottom-footer .bottom-fcon .mark p{
+footer .bottom-footer .bottom-fcon .rights p{
   color: #fff;
+  font-family: 'Noto Sans KR', sans-serif;
 }
-
-
+footer .bottom-footer .bottom-fcon .rights .test{
+  flex: 0 1 196px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .bottom-footer .bottom-fcon .rights .test img{
+  flex: 0 1 88px;
+  height: auto;
+  display: block;
+}
 
 @media only screen and (max-width:768px) {
-  .footer .top-footer{
+  footer .top-footer{
     padding: 0 20px;
-    box-sizing: border-box;
-  }
-  .footer .bottom-footer{
+  }  
+  footer .bottom-footer{
     padding: 0 20px;
-    box-sizing: border-box;
-  }
-}
-@media only screen and (max-width:390px){
-  .footer .top-footer .top-fcon{
-    flex-wrap: wrap;
-  }
-  .footer .top-footer .top-fcon span{
-    font-size: 12px;
-    line-height: 20px;
-  }
-  .footer .bottom-footer .bottom-fcon .mark .test{
-    flex: 0 0 88px;
-  }
+  }  
 }

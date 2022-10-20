@@ -4,213 +4,175 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>login</title>
   <script src="js/js_login.js" defer></script>
   <script src="js/jq_header.js" defer></script>
   <script src="js/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="css/pages/login.css">
+  <title>login</title>
 </head>
 <body>
   <div id="wrap">
-    <div class="header">
-      <div class="top-header">
-        <div class="top-inner">
-          <div class="top-con">
+    <header class="header">
+      <nav class="nav">
+        <div class="top-header">
+          <div class="top-inner">
+            <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
             <span class="menu"><img src="img/menu.png" alt="menu"></span>
-            <h1 class="logo"><a href="header.html"><img src="img/logo.png" alt="logo"></a></h1>
-            <div class="icon-goto">
-              <ul>
-                <li><a href="#"><img src="img/member.png" alt="member"></a></li>
-                <li><a href="#"><img src="img/icon_cart.png" alt="cart"></a></li>
-              </ul>
-            </div>
-            <form action="#" method="post" id="searForm">
-              <div class="search">
-                <input type="text" name="userSearch" id="userSearch" placeholder="검색어를 입력하세요">
-                <button></button>
-              </div>
-            </form>
             <div class="goto">
               <ul>
                 <li><a href="login.html">로그인</a></li>
                 <li><a href="join.html">회원가입</a></li>
-                <li><a href="#"><img src="img/icon_cart.png" alt="cart"></a></li>
+                <li><a href="#">쇼핑몰</a></li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
-      <div class="bottom-header">
-        <div class="bottom-inner">
-          <div class="short-nav">
-            <span class="out"><img src="img/out.png" alt="out"></span>
-            <ul>
-              <li>
-                <a href="login.html">로그인</a>
+        <div class="bottom-header">
+          <div class="bottom-inner">
+            <div class="gnb">
+              <ul>
+                <li>
+                  <a href="#">About</a>
+                  <ul class="sub">
+                    <li><a href="#">Brand Story</a></li>
+                    <li><a href="#">SNS</a></li>
+                  </ul>
                 </li>
-              <li>
-                <a href="join.html">회원가입</a>
-              </li>
-              <li>
-                <a href="#">TVING ORIGINAL</a>
-                <ul class="sub">
-                  <li>술꾼도시여자들</li>
-                  <li>유미의 세포들</li>
-                  <li>티빙 씨네마</li>
-                  <li>스프링 캠프</li>
-                  <li>ALL</li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">드라마</a>
-                <ul class="sub">
-                  <li>멜랑꼴리아</li>
-                  <li>어사와 조이</li>
-                  <li>괴물</li>
-                  <li>갯마을 차차차</li>
-                  <li>ALL</li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">예능</a>
-                <ul class="sub">
-                  <li>라켓보이즈</li>
-                  <li>여고추리반</li>
-                  <li>윤스테이</li>
-                  <li>유퀴즈온더블럭</li>
-                  <li>ALL</li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">애니/캐릭터</a>
-                <ul class="sub">
-                  <li>신비아파트</li>
-                  <li>tvN인형가게</li>
-                  <li>겨울왕국</li>
-                  <li>펭수</li>
-                  <li>ALL</li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">아티스트</a>
-                <ul class="sub">
-                  <li>KCON:TACT3</li>
-                  <li>BTS</li>
-                  <li>미스터트롯</li>
-                  <li>도티잠뜰</li>
-                  <li>ALL</li>
-                </ul>
-              </li>
-            </ul>
+                <li>
+                  <a href="#">Store</a>
+                  <ul class="sub">
+                    <li><a href="#">PetitElins</a></li>
+                    <li><a href="#">Store</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="product.html">Product</a>
+                  <ul class="sub">
+                    <li><a href="product.html">All</a></li>
+                    <li><a href="#">Animals</a></li>
+                    <li><a href="#">Amuseables</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Accessories</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Information</a>
+                  <ul class="sub">
+                    <li><a href="#">Notice</a></li>
+                    <li><a href="#">Event</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Member</a>
+                  <ul class="sub">
+                    <li><a href="#">MyPage</a></li>
+                    <li><a href="#">Custoemr Center</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="background"></div>
+            </div>
           </div>
-          <div class="bottom-gnb">
-            <ul>
-              <li>
-                <a href="#">TVING ORIGINAL</a>
-                <ul class="sub">
-                  <li>술꾼도시여자들</li>
-                  <li>유미의 세포들</li>
-                  <li>티빙 씨네마</li>
-                  <li>스프링 캠프</li>
-                  <li>ALL</li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">드라마</a>
-                <ul class="sub">
-                  <li>멜랑꼴리아</li>
-                  <li>어사와 조이</li>
-                  <li>괴물</li>
-                  <li>갯마을 차차차</li>
-                  <li>ALL</li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">예능</a>
-                <ul class="sub">
-                  <li>라켓보이즈</li>
-                  <li>여고추리반</li>
-                  <li>윤스테이</li>
-                  <li>유퀴즈온더블럭</li>
-                  <li>ALL</li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">애니/캐릭터</a>
-                <ul class="sub">
-                  <li>신비아파트</li>
-                  <li>tvN인형가게</li>
-                  <li>겨울왕국</li>
-                  <li>펭수</li>
-                  <li>ALL</li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">아티스트</a>
-                <ul class="sub">
-                  <li>KCON:TACT3</li>
-                  <li>BTS</li>
-                  <li>미스터트롯</li>
-                  <li>도티잠뜰</li>
-                  <li>ALL</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="background"></div>
         </div>
-      </div>
-    </div>
-    <div class="container">
+        <div class="short-gnb">
+          <span class="out"><img src="img/out.png" alt="out"></span>
+          <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Shopping Cart</a></li>
+            <li>
+              <a href="#">About</a>
+              <ul class="sub">
+                <li><a href="#">Brand Story</a></li>
+                <li><a href="#">SNS</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Store</a>
+              <ul class="sub">
+                <li><a href="#">PetitElins</a></li>
+                <li><a href="#">Store</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Product</a>
+              <ul class="sub">
+                <li><a href="product.html">All</a></li>
+                <li><a href="#">Animals</a></li>
+                <li><a href="#">Amuseables</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Information</a>
+              <ul class="sub">
+                <li><a href="#">Notice</a></li>
+                <li><a href="#">Event</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Member</a>
+              <ul class="sub">
+                <li><a href="#">MyPage</a></li>
+                <li><a href="#">Custoemr Center</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
       <div class="inner-container">
         <div class="login-container">
-          <h1 class="title">로그인</h1>
-          <div class="login-con">
-            <div class="id-btn">
-              <span class="idBtn cj">CJ ONE 아이디</span>
-              <span class="idBtn tv">TVING 아이디</span>
+          <h1 class="title">Login</h1>
+          <div class="form-con">
+            <form action="#" method="post" id="loginForm">
+              <ul>
+                <li>
+                  <input type="text" id="userId" name="userId" placeholder="아이디">
+                </li>
+                <li>
+                  <input type="text" id="userPw" name="userPw" placeholder="비밀번호">
+                </li>
+                <li class="loginBtn">
+                  <input type="button" id="formBtn" name="formBtn" value="로그인">
+                </li>
+              </ul>
+            </form>
+          </div>
+          <div class="option-con">
+            <div class="join-go">
+              <a href="join.html">회원가입</a>
             </div>
-            <div class="login-form">
-              <form action="cjOkay.do" method="post" id="login">
-                <ul>
-                  <li><input type="text" id="userId" name="userId" placeholder="CJ ONE 아이디"></li>
-                  <li><input type="text" id="userPw" name="userPw" placeholder="비밀번호"></li>
-                  <li><input type="button" id ="loginBtn" value="로그인"></li>
-                </ul>
-              </form>
-            </div>
-            <div class="search">
-              <span class="join">
-                <a href="join.html">회원가입</a>
-              </span>
-              <div class="search-con">
-                <span class="search id">아이디 찾기</span>
-                <span class="search pw">비밀번호 찾기</span>
-              </div>
+            <div class="search-con">
+              <a href="#" class="id">아이디 찾기</a>
+              <a href="#">비밀번호 찾기</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer">
+    </main>
+    <footer class="footer">
       <div class="top-footer">
         <div class="top-fcon">
-          <span>고객센터</span>
-          <span>이용약관</span>
-          <span>개인정보처리방침</span>
-          <span>청소년보호정책</span>
-          <span>제휴/입점/광고/문의</span>
+          <ul>
+            <li><a href="#">고객센터</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">청소년보호정책</a></li>
+            <li><a href="#">이메일주소 무단수집거부</a></li>
+          </ul>
         </div>
       </div>
       <div class="bottom-footer">
         <div class="bottom-fcon">
-          <p>대표이사 : YANG JIEUL | 사업자정보확인 | 개인정보관리책임자 고창남 | 사업자등록번호 188-88-01893 | 통신판매신고번호 2020서울마포3641호
-            <br>
-            서울 마포구 상암산로 34(상암동, DMC디지털큐브) 주식회사 티빙 | 호스팅제공자:CJ올리브네트웍스 | 고객센터 1670-1525(평일 09시 ~ 18시) | 대표메일
-            tving.mall@cj.net
-          </p>
-          <div class="mark">
-            <p>Copyright TVING All rights reserved</p>
+          <address>
+            <p>대표이사 : 표순규 | 사업자정보확인 | 개인정보관리책임자 : 김홍식 | 사업자등록번호 108-81-91594 | 통신판매신고번호 제 2013-서울구로-0728호</p>
+            <p>서울특별시 구로구 디지털로 33길 48 대륭포스트타워 7차 13F</p>
+          </address>
+          <div class="rights">
+            <p>Copyright All rights reserved</p>
             <div class="test">
               <img src="img/vcss.gif" alt="html">
               <img src="img/vcss-blue.gif" alt="css">
@@ -218,7 +180,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   </div>
 </body>
 </html>

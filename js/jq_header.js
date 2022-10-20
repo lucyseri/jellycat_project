@@ -1,19 +1,20 @@
 'use strict';
 
-const menu=$('span.menu');
+const shortMenu=$('span.menu');
+const shortGnb=$('.short-gnb');
+const shortOut=$('span.out');
 
-menu.on('click', function(e){
-  $('.short-nav').css("right", "0")
+const shortGnbLi=$('.short-gnb>ul>li');
+const shortGnbSubUl=$('.short-gnb>ul>li>ul.sub');
+
+shortMenu.on('click', function(e){
+  shortGnb.css("right","0")
 })
-$('span.out').on('click', function(e){
-  $('.short-nav').css("right", "-800vw")
-
+shortOut.on('click', function(e){
+  shortGnb.css("right","-80vw")
 })
 
-const shortNavLi=$('.short-nav>ul>li');
-const shortNavSubUl=$('.short-nav>ul>li>ul.sub');
-
-shortNavLi.on('click', function(e){
+shortGnbLi.on('click', function(e){
   e.stopPropagation();
 
   $(this).find('ul.sub').slideToggle()
