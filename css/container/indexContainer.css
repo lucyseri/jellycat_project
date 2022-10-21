@@ -47,6 +47,9 @@ main section.sec1 .sec-con{
   overflow: hidden;
   position: relative;
 }
+main section.sec1 .sec-con h2{
+  display: none;
+}
 main section.sec1 .sec-con .gallery{
   width: 500%;
   height: inherit;
