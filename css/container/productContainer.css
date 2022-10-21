@@ -1,28 +1,31 @@
-main{}
+main{
+  width: 100%;
+  height: auto;
+}
 main .inner-container{}
 main .inner-container .product-container{}
 main .inner-container .product-container section{}
-main .inner-container .product-container section .section.sec1{
+main section.sec1{
   width: 100%;
   height: 300px;
 }
-main .inner-container .product-container section .section.sec1 .sec-con{
+main section.sec1 .sec-con{
   width: 100%;
   height: inherit;
   background: url("../../img/product_banner.jpg") no-repeat 50%/cover;
 }
 
-main .inner-container .product-container section .section.sec2{
+main section.sec2{
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
 }
-main .inner-container .product-container section .section.sec2 .sec-con{
+main section.sec2 .sec-con{
   flex: 0 1 1240px;
   height: auto;
 }
-main .inner-container .product-container section .section.sec2 .sec-con h2.section3-title{
+main section.sec2 .sec-con h2.section3-title{
   font-size: 25px;
   padding: 20px 0;
   box-sizing: border-box;
@@ -31,50 +34,50 @@ main .inner-container .product-container section .section.sec2 .sec-con h2.secti
   font-stretch: ultra-expanded;
   color: #3d3b3b;
 }
-main .inner-container .product-container section .section.sec2 .sec-con .best-product{
+main section.sec2 .sec-con .best-product{
   width: 100%;
   height: 326px;
   position: relative;
 }
-main .inner-container .product-container section .section.sec2 .sec-con .best-product .card-con{
+main section.sec2 .sec-con .best-product .card-con{
   width: 100%;
   height: inherit;
   position: absolute;
   overflow: hidden;
 }
-main .inner-container .product-container section .section.sec2 .sec-con .best-product .card-con .card-gallery{
+main section.sec2 .sec-con .best-product .card-con .card-gallery{
   width: 244.5161%;
   height: inherit;
   position: absolute;
   top: 0;
   left: 0;
 }
-main .inner-container .product-container section .section.sec2 .sec-con .best-product .card-con .card-gallery ul{
+main section.sec2 .sec-con .best-product .card-con .card-gallery ul{
   width: 100%;
   height: inherit;
   display: flex;
   justify-content: space-between;
   gap: 40px;
 }
-main .inner-container .product-container section .section.sec2 .sec-con .best-product .card-con .card-gallery ul li{
+main section.sec2 .sec-con .best-product .card-con .card-gallery ul li{
   flex: 0 1 216px;
   height: auto;
 }
-main .inner-container .product-container section .section.sec2 .sec-con .best-product .card-con .card-gallery ul li a{
+main section.sec2 .sec-con .best-product .card-con .card-gallery ul li a{
   display: block;
   width: 100%;
   height: auto;
 }
-main .inner-container .product-container section .section.sec2 .sec-con .best-product .card-con .card-gallery ul li a img{
+main section.sec2 .sec-con .best-product .card-con .card-gallery ul li a img{
   width: 100%;
   height: auto;
   display: block;
 }
-main .inner-container .product-container section .section.sec2 .sec-con .best-product .card-con .card-gallery ul li a p{
+main section.sec2 .sec-con .best-product .card-con .card-gallery ul li a p{
   line-height: 20px;
   font-family: 'Noto Sans KR', sans-serif;
 } 
-main .inner-container .product-container section .section.sec2 .sec-con .best-product .bottom-btn{
+main section.sec2 .sec-con .best-product .bottom-btn{
   width: 100%;
   height: auto;
   position: absolute;
@@ -83,16 +86,16 @@ main .inner-container .product-container section .section.sec2 .sec-con .best-pr
   display: flex;
   justify-content: center;
 }
-main .inner-container .product-container section .section.sec2 .sec-con .best-product .bottom-btn .bottom-items{
+main section.sec2 .sec-con .best-product .bottom-btn .bottom-items{
   flex: 0 1 100px;
   padding: 40px 0;
   box-sizing: border-box;
 }
-main .inner-container .product-container section .section.sec2 .sec-con .best-product .bottom-btn .bottom-items ul{
+main section.sec2 .sec-con .best-product .bottom-btn .bottom-items ul{
   display: flex;
   justify-content: space-between;
 }
-main .inner-container .product-container section .section.sec2 .sec-con .best-product .bottom-btn .bottom-items ul li{
+main section.sec2 .sec-con .best-product .bottom-btn .bottom-items ul li{
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -104,25 +107,25 @@ main .inner-container .product-container section .section.sec2 .sec-con .best-pr
   background-color: #3d3b3b;
 }
 
-main .inner-container .product-container section .section.sec3{
+main section.sec3{
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
 }
-main .inner-container .product-container section .section.sec3 .sec-con{
+main section.sec3 .sec-con{
   flex: 0 1 1240px;
   height: auto;
   padding: 40px 0 80px;
   box-sizing: border-box;
 }
-main .inner-container .product-container section .section.sec3 .sec-con .section3-nav{
+main section.sec3 .sec-con .section3-nav{
   width: 100%;
   height: auto;
   padding: 20px 0;
   box-sizing: border-box;
 }
-main .inner-container .product-container section .section.sec3 .sec-con .section3-nav .underline{
+main section.sec3 .sec-con .section3-nav .underline{
   position: absolute;
   top: 0;
   left: 0;
@@ -131,11 +134,11 @@ main .inner-container .product-container section .section.sec3 .sec-con .section
   background-color: #e6a29e;
 }
 
-main .inner-container .product-container section .section.sec3 .sec-con .section3-nav ul{
+main section.sec3 .sec-con .section3-nav ul{
   display: flex;
   gap: 40px;
 }
-main .inner-container .product-container section .section.sec3 .sec-con .section3-nav ul li{
+main section.sec3 .sec-con .section3-nav ul li{
   font-size: 25px;
   font-family: 'Asap Condensed', sans-serif;
   font-weight: 700;
@@ -143,43 +146,40 @@ main .inner-container .product-container section .section.sec3 .sec-con .section
   cursor: pointer;
   color: #3d3b3b;
 }
-main .inner-container .product-container section .section.sec3 .sec-con .product-list{
+main section.sec3 .sec-con .product-list{
   width: 100%;
   height: auto;
 }
-main .inner-container .product-container section .section.sec3 .sec-con .product-list ul{
+main section.sec3 .sec-con .product-list ul{
   display: flex;
   justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
 }
-main .inner-container .product-container section .section.sec3 .sec-con .product-list ul li{
+main section.sec3 .sec-con .product-list ul li{
   flex: 0 1 216px;
   height: auto;
 }
-main .inner-container .product-container section .section.sec3 .sec-con .product-list ul li a{
+main section.sec3 .sec-con .product-list ul li a{
   display: block;
   width: 100%;
   height: auto;
 }
-main .inner-container .product-container section .section.sec3 .sec-con .product-list ul li a img{
+main section.sec3 .sec-con .product-list ul li a img{
   width: 100%;
   height: auto;
   display: block;
 }
-main .inner-container .product-container section .section.sec3 .sec-con .product-list ul li a p{
-  font-family: 'Noto Sans KR', sans-serif;
-}
-main .inner-container .product-container section .section.sec3 .sec-con .product-list ul li.more-box{
+main section.sec3 .sec-con .product-list ul li.more-box{
   display: flex;
   align-items: center;
   border-radius: 25px;
   box-sizing: border-box;
 }
-main .inner-container .product-container section .section.sec3 .sec-con .product-list ul li.more-box:hover{
+main section.sec3 .sec-con .product-list ul li.more-box:hover{
   border: 1px solid #e6a29e;
 }
-main .inner-container .product-container section .section.sec3 .sec-con .product-list ul li.more-box a{
+main section.sec3 .sec-con .product-list ul li.more-box a{
   font-size: 25px;
   text-align: center;
   font-family: 'Asap Condensed', sans-serif;
@@ -189,28 +189,28 @@ main .inner-container .product-container section .section.sec3 .sec-con .product
 }
 
 @media only screen and (max-width:768px){
-  main .inner-container .product-container section .section.sec1{
+  main section.sec1{
     height: 150px;
   }
-  main .inner-container .product-container section .section.sec2 .sec-con{
+  main section.sec2 .sec-con{
     flex: 0 1 768px;
     padding: 40px 60px 0;
     box-sizing: border-box;
   }
-  main .inner-container .product-container section .section.sec2 .sec-con .best-product{
+  main section.sec2 .sec-con .best-product{
     height: 242px;
   }
-  main .inner-container .product-container section .section.sec2 .sec-con .best-product .card-con .card-gallery{
+  main section.sec2 .sec-con .best-product .card-con .card-gallery{
     width: 312.3456%;
   }
-  main .inner-container .product-container section .section.sec2 .sec-con .best-product .card-con .card-gallery ul li{
+  main section.sec2 .sec-con .best-product .card-con .card-gallery ul li{
     flex: 0 1 132px;
   }
-  main .inner-container .product-container section .section.sec3 .sec-con{
+  main section.sec3 .sec-con{
     padding: 40px 60px;
     box-sizing: border-box;
   }
-  main .inner-container .product-container section .section.sec3 .sec-con .product-list ul li{
+  main section.sec3 .sec-con .product-list ul li{
     flex: 0 1 304px;
   }
 }

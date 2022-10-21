@@ -4,14 +4,14 @@ main{
   padding: 60px 40px;
   box-sizing: border-box;
 }
-main .inner-container{
+main section{
   display: flex;
   justify-content: center;
 }
-main .inner-container .login-container{
+main section .login-container{
   flex: 0 1 400px;
 }
-main .inner-container .login-container h1.title{
+main section .login-container h1.title{
   width: 100%;
   text-align: center;
   line-height: 30px;
@@ -19,29 +19,29 @@ main .inner-container .login-container h1.title{
   font-family: 'Asap Condensed', sans-serif;
   font-weight: 700;
 }
-main .inner-container .login-container .form-con{
+main section .login-container .form-con{
   width: 100%;
 }
-main .inner-container .login-container .form-con form ul li{
+main section .login-container .form-con form ul li{
   width: 100%;
   height: auto;
   padding: 20px 0;
   box-sizing: border-box;
 }
-main .inner-container .login-container .form-con form ul li input{
+main section .login-container .form-con form ul li input{
   width: 100%;
   border: 0;
   outline: 0;
   font-size: 16px;
   line-height: 24px;
 }
-main .inner-container .login-container .form-con form ul li:not(:last-child){
+main section .login-container .form-con form ul li:not(:last-child){
   border-bottom: 1px solid #ccc;
 }
-main .inner-container .login-container .form-con form ul li.loginBtn{
+main section .login-container .form-con form ul li.loginBtn{
   padding: 40px 0 20px;
 }
-main .inner-container .login-container .form-con form ul li input#formBtn{
+main section .login-container .form-con form ul li input#formBtn{
   font-size: 18px;
   line-height: 50px;
   text-align: center;
@@ -50,20 +50,20 @@ main .inner-container .login-container .form-con form ul li input#formBtn{
   cursor: pointer;
   border: 1px solid #e6a29e;
 }
-main .inner-container .login-container .form-con form ul li input#formBtn:hover{
+main section .login-container .form-con form ul li input#formBtn:hover{
   background-color: #e6a29e;
   font-weight: bolder;
 }
-main .inner-container .login-container .option-con{
+main section .login-container .option-con{
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-main .inner-container .login-container .option-con .join-go a{
+main section .login-container .option-con .join-go a{
   font-size: 14px;
   color: #222;
 }
-main .inner-container .login-container .option-con .search-con a{
+main section .login-container .option-con .search-con a{
   font-size: 14px;
   color: #222;
   margin-left: 20px;
