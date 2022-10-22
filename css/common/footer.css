@@ -1,6 +1,6 @@
 /* footer */
 footer{
-  background-color: #292929;
+  background-color: var(--main-color);
 }
 footer .top-footer{
   display: flex;
@@ -22,7 +22,6 @@ footer .top-footer .top-fcon ul li{
 }
 footer .top-footer .top-fcon ul li a{
   color:inherit;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 footer .bottom-footer{
   display: flex;
@@ -37,7 +36,6 @@ footer .bottom-footer .bottom-fcon address{
 }
 footer .bottom-footer .bottom-fcon address p{
   color: #fff;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 footer .bottom-footer .bottom-fcon .rights{
   display: flex;
@@ -46,7 +44,6 @@ footer .bottom-footer .bottom-fcon .rights{
 }
 footer .bottom-footer .bottom-fcon .rights p{
   color: #fff;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 footer .bottom-footer .bottom-fcon .rights .test{
   flex: 0 1 196px;

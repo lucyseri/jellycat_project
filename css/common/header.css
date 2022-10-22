@@ -63,7 +63,6 @@ header nav .top-header .goto ul li a {
   font-size: inherit;
   line-height: inherit;
   position: relative;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 
 header nav .top-header .goto ul li:not(:last-child) a::after {
@@ -71,7 +70,7 @@ header nav .top-header .goto ul li:not(:last-child) a::after {
   display: block;
   width: 2px;
   height: 15px;
-  background-color: #e6a29e;
+  background-color: var(--main-background-colro);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -106,10 +105,10 @@ header nav .bottom-header .gnb>ul>li {
 }
 
 header nav .bottom-header .gnb>ul>li>a {
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: var(--main-font-family);
   font-size: 18px;
   font-weight: 700;
-  color: #3d3b3b;
+  color: var(--main-color);
 }
 
 header nav .bottom-header .gnb ul>li ul.sub {
@@ -130,7 +129,7 @@ header nav .bottom-header .gnb:hover ul li ul.sub {
 
 header nav .bottom-header .gnb ul>li ul.sub li {
   line-height: 30px;
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 400;
 }
 header nav .bottom-header .gnb ul>li ul.sub li a {
@@ -147,7 +146,7 @@ header nav .bottom-header .gnb ul>li ul.sub li a::after {
   left: 50%;
   transform: translateX(-50%);
   bottom: -3px;
-  background-color: #e6a29e;
+  background-color: var(--main-background-colro);
   transition: all 0.3s;
 }
 header nav .bottom-header .gnb ul>li ul.sub li a:hover::after {
@@ -159,7 +158,7 @@ header nav .bottom-header .gnb ul>li ul.sub li a:hover::after {
   left: 50%;
   transform: translateX(-50%);
   bottom: -3px;
-  background-color: #e6a29e;
+  background-color: var(--main-background-colro);
 }
 header nav .bottom-header .bottom-inner .gnb .background {
   width: 100vw;
@@ -208,8 +207,8 @@ header nav .short-gnb>ul>li{
 }
 header nav .short-gnb>ul>li>a{
   font-size: 18px;
-  font-family: 'Asap Condensed', sans-serif;
   font-weight: 700;
+  font-family: var(--main-font-family);
 }
 header nav .short-gnb>ul>li>a:hover{
   letter-spacing: 3px;
@@ -223,7 +222,7 @@ header nav .short-gnb>ul>li ul.sub li{
 }
 header nav .short-gnb>ul>li ul.sub li a{
   font-size: 14px;
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 400;
 }
 

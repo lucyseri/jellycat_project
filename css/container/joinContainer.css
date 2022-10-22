@@ -16,7 +16,7 @@ main section .join-container h1.title{
   text-align: center;
   line-height: 30px;
   margin-bottom: 40px;
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 700;
 }
 main section .join-container .form-con{
@@ -50,12 +50,12 @@ main section .join-container .form-con form ul li input#joinBtn{
   line-height: 50px;
   cursor: pointer;
   border-radius: 25px;
-  border: 1px solid #e6a29e;
+  border: 1px solid var(--main-background-colro);
   box-sizing: border-box;
   background-color: #e6a29e00;
 }
 main section .join-container .form-con form ul li input#joinBtn:hover{
-  background-color: #e6a29e;
+  background-color: var(--main-background-colro);
   font-weight: bolder;
 }
 main section .join-container .form-con form ul li span.check{

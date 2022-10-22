@@ -25,3 +25,8 @@ table, th, td{
   border: 1px solid;
   border-collapse: collapse;
 }
+:root{
+  --main-color: #3d3b3b;
+  --main-background-colro: #e6a29e;
+  --main-font-family: 'Asap Condensed', sans-serif;
+}

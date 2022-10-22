@@ -48,10 +48,10 @@ main section .login-container .form-con form ul li input#formBtn{
   background-color: #e6a29e00;
   border-radius: 25px;
   cursor: pointer;
-  border: 1px solid #e6a29e;
+  border: 1px solid var(--main-background-colro);
 }
 main section .login-container .form-con form ul li input#formBtn:hover{
-  background-color: #e6a29e;
+  background-color: var(--main-background-colro);
   font-weight: bolder;
 }
 main section .login-container .option-con{

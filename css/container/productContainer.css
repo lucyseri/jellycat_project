@@ -29,10 +29,10 @@ main section.sec2 .sec-con h2.section3-title{
   font-size: 25px;
   padding: 20px 0;
   box-sizing: border-box;
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 700;
   font-stretch: ultra-expanded;
-  color: #3d3b3b;
+  color: var(--main-color);
 }
 main section.sec2 .sec-con .best-product{
   width: 100%;
@@ -75,7 +75,6 @@ main section.sec2 .sec-con .best-product .card-con .card-gallery ul li a img{
 }
 main section.sec2 .sec-con .best-product .card-con .card-gallery ul li a p{
   line-height: 20px;
-  font-family: 'Noto Sans KR', sans-serif;
 } 
 main section.sec2 .sec-con .best-product .bottom-btn{
   width: 100%;
@@ -99,12 +98,12 @@ main section.sec2 .sec-con .best-product .bottom-btn .bottom-items ul li{
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: 1px solid #3d3b3b;
+  border: 1px solid var(--main-color);
   box-sizing: border-box;
   cursor: pointer;
 }
 .on{
-  background-color: #3d3b3b;
+  background-color: var(--main-color);
 }
 
 main section.sec3{
@@ -131,7 +130,7 @@ main section.sec3 .sec-con .section3-nav .underline{
   left: 0;
   width: 0;
   height: 3px;
-  background-color: #e6a29e;
+  background-color: var(--main-background-colro);
 }
 
 main section.sec3 .sec-con .section3-nav ul{
@@ -140,11 +139,11 @@ main section.sec3 .sec-con .section3-nav ul{
 }
 main section.sec3 .sec-con .section3-nav ul li{
   font-size: 25px;
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 700;
   font-stretch: ultra-expanded;
   cursor: pointer;
-  color: #3d3b3b;
+  color: var(--main-color);
 }
 main section.sec3 .sec-con .product-list{
   width: 100%;
@@ -177,15 +176,15 @@ main section.sec3 .sec-con .product-list ul li.more-box{
   box-sizing: border-box;
 }
 main section.sec3 .sec-con .product-list ul li.more-box:hover{
-  border: 1px solid #e6a29e;
+  border: 1px solid var(--main-background-colro);
 }
 main section.sec3 .sec-con .product-list ul li.more-box a{
   font-size: 25px;
   text-align: center;
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 700;
   font-stretch: ultra-expanded;
-  color: #3d3b3b;
+  color: var(--main-color);
 }
 
 @media only screen and (max-width:768px){

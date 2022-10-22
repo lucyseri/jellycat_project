@@ -22,10 +22,10 @@ main section .sec-con{
 }
 .title h2{
   font-size: 28px;
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 700;
   font-stretch: ultra-expanded;
-  color: #3d3b3b;
+  color: var(--main-color);
 }
 .title span.more{
   font-size: 14px;
@@ -80,9 +80,9 @@ main section.sec1 .sec-con .gallery ul li .banner-txt{
 main section.sec1 .sec-con .gallery ul li .banner-txt p.banner-title{
   line-height: 40px;
   font-size: 40px;
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 700;
-  color: #3d3b3b;
+  color: var(--main-color);
   letter-spacing: 2px;
 }
 main section.sec1 .sec-con .gallery ul li .banner-txt p.banner-content{
@@ -115,8 +115,8 @@ main section.sec1 .sec-con .center-btn.sec1{
 main section.sec1 .sec-con .center-btn.sec1 span.arrow{
   width: 30px;
   height: 30px;
-  border-top: 3px solid #3d3b3b;
-  border-right: 3px solid #3d3b3b;
+  border-top: 3px solid var(--main-color);
+  border-right: 3px solid var(--main-color);
   cursor: pointer;
 }
 main section.sec1 .sec-con .center-btn.sec1 span.arrow.left{
@@ -149,17 +149,17 @@ main section.sec1 .sec-con .bcon .items ul{
 main section.sec1 .sec-con .bcon .items ul li{
   flex: 0 0 10px;
   height: 10px;
-  border: 1px solid #3d3b3b;
+  border: 1px solid var(--main-color);
   border-radius: 50%;
   box-sizing: border-box;
   cursor: pointer;
 }
 main section.sec1 .sec-con .bcon .items ul li:hover{
-  background-color: #3d3b3b;
+  background-color: var(--main-color);
 }
 
 .on{
-  background-color: #3d3b3b;
+  background-color: var(--main-color);
 }
 
 
@@ -302,8 +302,8 @@ main section.sec4 .sec-con .sec4-top .arrow.btn span.arrow{
   display: block;
   width: 30px;
   height: 30px;
-  border-top: 3px solid #3d3b3b;
-  border-right: 3px solid #3d3b3b;
+  border-top: 3px solid var(--main-color);
+  border-right: 3px solid var(--main-color);
   box-sizing: border-box;
 }
 main section.sec4 .sec-con .sec4-top .arrow.btn.left span.arrow.left{
@@ -366,10 +366,10 @@ main section.sec4 .sec-con .sec4-bottom .bottom-left a{
   top: 50%;
   transform: translate(-50%);
   font-size: 25px;
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 700;
   font-stretch: ultra-expanded;
-  color: #3d3b3b;
+  color: var(--main-color);
   display: none;
 }
 main section.sec4 .sec-con .sec4-bottom .bottom-left:hover a{
@@ -386,7 +386,7 @@ main section.sec4 .sec-con .sec4-bottom .bottom-left img{
 main section.sec4 .sec-con .sec4-bottom .bottom-left:hover img{
   opacity: 0.5;
   cursor: pointer;
-  border: 1px solid #e6a29e;
+  border: 1px solid var(--main-background-colro);
 }
 main section.sec4 .sec-con .sec4-bottom .bottom-right{
   flex: 0 1 590px;
@@ -439,7 +439,7 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
   height: 5px;
 }
 .slide-con::-webkit-scrollbar-thumb{
-  background-color: #e6a29e;
+  background-color: var(--main-background-colro);
   border-radius: 25px;
 }
 
@@ -447,7 +447,7 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
   width: 5px;
 }
 .bottom-right::-webkit-scrollbar-thumb{
-  background-color: #e6a29e;
+  background-color: var(--main-background-colro);
   border-radius: 25px;
 }
 
