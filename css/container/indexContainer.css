@@ -9,6 +9,7 @@ main section{
   height: auto;
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
 }
 main section .sec-con{
   flex: 0 1 1240px;
@@ -25,6 +26,7 @@ main section .sec-con{
   font-family: var(--main-font-family);
   font-weight: 700;
   font-stretch: ultra-expanded;
+  word-spacing: 10px;
   color: var(--main-color);
 }
 .title span.more{
@@ -37,10 +39,7 @@ main section .sec-con{
   line-height: 20px;
   padding: 5px 10px;
 }
-
-main section.sec1{
-  margin-bottom: 60px;
-}
+/* section1 */
 main section.sec1 .sec-con{
   width: 100%;
   height: 478px;
@@ -69,10 +68,10 @@ main section.sec1 .sec-con .gallery ul li{
   padding: 0 100px;
   box-sizing: border-box;
   display: flex;
-  gap: 40px;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 main section.sec1 .sec-con .gallery ul li .banner-txt{
   flex: 0 1 600px;
@@ -84,6 +83,7 @@ main section.sec1 .sec-con .gallery ul li .banner-txt p.banner-title{
   font-weight: 700;
   color: var(--main-color);
   letter-spacing: 2px;
+  word-spacing: 10px;
 }
 main section.sec1 .sec-con .gallery ul li .banner-txt p.banner-content{
   line-height: 25px;
@@ -157,12 +157,10 @@ main section.sec1 .sec-con .bcon .items ul li{
 main section.sec1 .sec-con .bcon .items ul li:hover{
   background-color: var(--main-color);
 }
-
 .on{
   background-color: var(--main-color);
 }
-
-
+/* section2 */
 main section.sec2{
   width: 100%;
   height: auto;
@@ -171,7 +169,6 @@ main section.sec2{
 main section.sec2 .sec-con{
   padding: 40px 0;
 }
-
 main section.sec2 .sec-con .sec2-slide{
   width: 100%;
   height: 300px;
@@ -183,8 +180,8 @@ main section.sec2 .sec-con .sec2-slide .slide-con{
   height: inherit;
   overflow-x: scroll;
   overflow-y: hidden;
-  position: absolute;
   white-space: nowrap;
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -198,44 +195,34 @@ main section.sec2 .sec-con .sec2-slide .slide-con .slide-items ul{
   display: flex;
   gap: 40px;
   justify-content: space-between;
-
 }
 main section.sec2 .sec-con .sec2-slide .slide-con .slide-items ul li{
   flex: 0 1 216px;
   height: inherit;
-  position: relative;
 }
 main section.sec2 .sec-con .sec2-slide .slide-con .slide-items ul li a{
+  display: block;
   width: 100%;
   height: inherit;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
 }
-main section.sec2 .sec-con .sec2-slide .slide-con .slide-items ul li img{
+main section.sec2 .sec-con .sec2-slide .slide-con .slide-items ul li a img{
   width: 100%;
   height: auto;
   display: block;
 }
-main section.sec2 .sec-con .sec2-slide .slide-con .slide-items ul li .sec2-product{
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-main section.sec2 .sec-con .sec2-slide .slide-con .slide-items ul li .sec2-product img{
-  width: 100%;
-  height: auto;
-  display: block;
-}
-main section.sec2 .sec-con .sec2-slide .slide-con .slide-items ul li .sec2-product p{
+main section.sec2 .sec-con .sec2-slide .slide-con .slide-items ul li a p{
   padding: 10px;
   line-height: 20px;
   box-sizing: border-box;
 }
-
+.slide-con::-webkit-scrollbar{
+  height: 5px;
+}
+.slide-con::-webkit-scrollbar-thumb{
+  background-color: var(--main-background-colro);
+  border-radius: 25px;
+}
+/* section3 */
 main section.sec3{
   width: 100%;
   height: auto;
@@ -255,30 +242,21 @@ main section.sec3 .sec-con .sec3-best ul{
   grid-auto-rows: minmax(144px, auto);
   gap: 40px;
 }
-main section.sec3 .sec-con .sec3-best ul li{
-  position: relative;
-}
 main section.sec3 .sec-con .sec3-best ul li a{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-main section.sec3 .sec-con .sec3-best ul li .sec3-product{
+  display: block;
   width: 100%;
   height: auto;
 }
-main section.sec3 .sec-con .sec3-best ul li .sec3-product img{
+main section.sec3 .sec-con .sec3-best ul li a img{
   width: 100%;
   height: auto;
   display: block;
 }
-main section.sec3 .sec-con .sec3-best ul li .sec3-product p{
+main section.sec3 .sec-con .sec3-best ul li a p{
   padding: 20px 10px;
   line-height: 20px;
 }
+/* section4 */
 main section.sec4 .sec-con .sec4-top{
   width: 100%;
   height: 140px;
@@ -348,7 +326,6 @@ main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con ul li p{
   text-align: center;
   overflow: hidden;
 }
-
 main section.sec4 .sec-con .sec4-bottom{
   display: flex;
   justify-content: space-between;
@@ -434,15 +411,6 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
   line-height: 20px;
   font-size: 14px;
 }
-
-.slide-con::-webkit-scrollbar{
-  height: 5px;
-}
-.slide-con::-webkit-scrollbar-thumb{
-  background-color: var(--main-background-colro);
-  border-radius: 25px;
-}
-
 .bottom-right::-webkit-scrollbar{
   width: 5px;
 }
@@ -450,7 +418,6 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
   background-color: var(--main-background-colro);
   border-radius: 25px;
 }
-
 @media only screen and (max-width:768px){
   main section .sec-con{
     flex: 0 1 688px;

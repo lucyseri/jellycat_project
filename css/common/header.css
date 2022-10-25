@@ -54,14 +54,12 @@ header nav .top-header .goto ul {
 }
 
 header nav .top-header .goto ul li {
-  font-size: 12px;
   text-align: right;
-  line-height: 30px;
 }
 
 header nav .top-header .goto ul li a {
-  font-size: inherit;
-  line-height: inherit;
+  font-size: 12px;
+  line-height: 30px;
   position: relative;
 }
 
@@ -101,13 +99,13 @@ header nav .bottom-header .gnb>ul {
 
 header nav .bottom-header .gnb>ul>li {
   position: relative;
-  line-height: 40px;
 }
 
 header nav .bottom-header .gnb>ul>li>a {
-  font-family: var(--main-font-family);
   font-size: 18px;
+  font-family: var(--main-font-family);
   font-weight: 700;
+  line-height: 40px;
   color: var(--main-color);
 }
 
