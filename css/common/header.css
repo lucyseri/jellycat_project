@@ -31,6 +31,7 @@ header nav .top-header span.menu {
   display: none;
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 header nav .top-header span.menu img{
   display: block;
