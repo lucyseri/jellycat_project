@@ -58,9 +58,11 @@ footer .bottom-footer .bottom-fcon .rights .test img{
 
 @media only screen and (max-width:768px) {
   footer .top-footer{
-    padding: 0 20px;
+    padding: 0 60px;
+    box-sizing: border-box;
   }  
   footer .bottom-footer{
-    padding: 0 20px;
+    padding: 0 60px;
+    box-sizing: border-box;
   }  
 }

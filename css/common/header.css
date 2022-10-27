@@ -1,18 +1,20 @@
 /* header */
 header {
   background-color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
-header nav {}
+header nav {
+  flex: 0 1 1240px;
+}
 
 header nav .top-header {
-  display: flex;
   justify-content: center;
   padding: 20px 0;
 }
 
 header nav .top-header .top-inner {
-  flex: 0 1 1240px;
   display: flex;
   justify-content: space-between;
 }
@@ -79,29 +81,20 @@ header nav .top-header .goto ul li:not(:last-child) a::after {
 header nav .bottom-header {
   width: 100%;
 }
-
 header nav .bottom-header .bottom-inner {
   padding: 10px 0;
-  display: flex;
-  justify-content: center;
 }
-
-
 header nav .bottom-header .gnb {
-  flex: 0 1 1240px;
+  width: 100%;
   position: relative;
 }
-
-
 header nav .bottom-header .gnb>ul {
   display: flex;
   justify-content: space-between;
 }
-
 header nav .bottom-header .gnb>ul>li {
   position: relative;
 }
-
 header nav .bottom-header .gnb>ul>li>a {
   font-size: 18px;
   font-family: var(--main-font-family);
@@ -109,7 +102,6 @@ header nav .bottom-header .gnb>ul>li>a {
   line-height: 40px;
   color: var(--main-color);
 }
-
 header nav .bottom-header .gnb ul>li ul.sub {
   width: 300%;
   height: auto;
@@ -169,7 +161,7 @@ header nav .bottom-header .bottom-inner .gnb .background {
   left: 50%;
   transform: translateX(-50%);
   display: none;
-  border-top: 1px solid rgb(143, 143, 143);
+  border-top: 1px solid #ccc;
 }
 
 header nav .bottom-header .bottom-inner .gnb:hover .background {
@@ -226,9 +218,8 @@ header nav .short-gnb>ul>li ul.sub li a{
 }
 
 @media only screen and (max-width: 768px) {
-  header{
-    padding: 0 20px;
-    box-sizing: border-box;
+  header nav{
+    flex: 0 1 648px;
   }
   header nav .top-header .top-inner span.menu {
     display: block;

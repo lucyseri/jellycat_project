@@ -420,7 +420,7 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
 }
 @media only screen and (max-width:768px){
   main section .sec-con{
-    flex: 0 1 688px;
+    flex: 0 1 648px;
   }
   main section.sec1 .sec-con{
    height: 540px;
@@ -431,28 +431,29 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
   main section.sec1 .sec-con .gallery ul li .banner-txt{
     text-align: center;
   }
-
   main section.sec2 .sec-con .sec2-slide{
     width: 100%;
-    height: 270px;
+    height: 232px;
   }
   main section.sec2 .sec-con .sec2-slide .slide-con{
-    width: 382.9941%;
-    height: 237px;
+    /* width: 382.9941%; */
+    /* height: 237px; */
+    width: 312.3456%;
+    height: 192px;
   }
   main section.sec2 .sec-con .sec2-slide .slide-con ul{
-    gap: 20px;
+    gap: 40px;
   }
   main section.sec2 .sec-con .sec2-slide .slide-con ul li{
-    flex: 0 1 157px;
+    flex: 0 1 132px;
   }
 
   main section.sec3 .sec-con .sec3-best ul{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, minmax(157px, auto));
-    grid-auto-rows: minmax(157px, auto);
-    gap: 20px;
+    grid-template-rows: repeat(3, minmax(132px, auto));
+    grid-auto-rows: minmax(132px, auto);
+    gap: 40px;
   }
   main section.sec3 .sec-con .sec3-best ul li:nth-child(1){
     grid-area: 1/1/2/3;
@@ -465,7 +466,7 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
   main section.sec3 .sec-con .sec3-best ul li:nth-child(1) a img{
     width: 50%;
     float: left;
-    margin-right: 20px;
+    margin-right: 40px;
   }
   main section.sec3 .sec-con .sec3-best ul li:nth-child(2){
     grid-area: 1/3/2/5;
@@ -481,16 +482,18 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
     float: left;
   }
   main section.sec4 .sec-con .sec4-top{
-    height: 108px;
+    height: 120px;
     justify-content: center;
     margin: 40px 0 20px;
   }
   main section.sec4 .sec-con .sec4-top .sec4-thum{
     /* flex: 0 1 608px; */
-    width: 608px;
+    /* width: 608px; */
+    width: 568px;
   }
   main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con{
-    width: 168.4210%;
+    /* width: 168.4210%; */
+    width: 202.9929%;
     height: inherit;
   }
   main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con ul{
@@ -498,10 +501,10 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
     height: inherit;
     display: flex;
     justify-content: space-between;
-    gap: 16px;
+    gap: 17px;
   }
   main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con ul li{
-    flex: 0 1 88px;
+    flex: 0 1 100px;
   }
   main section.sec4 .sec-con .sec4-top .arrow.btn{
     flex: 0 1 40px;
