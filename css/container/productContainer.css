@@ -2,9 +2,6 @@ main{
   width: 100%;
   height: auto;
 }
-main .inner-container{}
-main .inner-container .product-container{}
-main .inner-container .product-container section{}
 main section.sec1{
   width: 100%;
   height: 300px;
@@ -27,7 +24,7 @@ main section.sec2 .sec-con{
   height: auto;
 }
 main section.sec2 .sec-con h2.section2-title{
-  font-size: 28px;
+  font-size: 1.75rem;
   padding: 20px 0 40px;
   box-sizing: border-box;
   font-family: var(--main-font-family);
@@ -79,6 +76,7 @@ main section.sec2 .sec-con .best-product .card-con .card-gallery ul li a p{
   line-height: 20px;
   padding: 10px;
   box-sizing: border-box;
+  font-size: 1rem;
 } 
 main section.sec2 .sec-con .best-product .bottom-btn{
   width: 100%;
@@ -175,6 +173,7 @@ main section.sec3 .sec-con .product-list ul li a p{
   padding: 10px;
   box-sizing: border-box;
   line-height: 20px;
+  font-size: 1rem;
 }
 main section.sec3 .sec-con .product-list ul li.more-box{
   height: 216px;
@@ -222,6 +221,6 @@ main section.sec3 .sec-con .product-list ul li.more-box a{
     flex: 0 1 132px;
   }
   main section.sec3 .sec-con .product-list ul li.more-box{
-    height: 212px;
+    height: 142px;
   }
 }

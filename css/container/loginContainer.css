@@ -18,6 +18,7 @@ main section .login-container h1.title{
   margin-bottom: 40px;
   font-family: 'Asap Condensed', sans-serif;
   font-weight: 700;
+  font-size: 1.75rem;
 }
 main section .login-container .form-con{
   width: 100%;
@@ -32,7 +33,7 @@ main section .login-container .form-con form ul li input{
   width: 100%;
   border: 0;
   outline: 0;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 }
 main section .login-container .form-con form ul li:not(:last-child){
@@ -42,7 +43,7 @@ main section .login-container .form-con form ul li.loginBtn{
   padding: 40px 0 20px;
 }
 main section .login-container .form-con form ul li input#formBtn{
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 50px;
   text-align: center;
   background-color: #e6a29e00;
@@ -60,11 +61,11 @@ main section .login-container .option-con{
   justify-content: space-between;
 }
 main section .login-container .option-con .join-go a{
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #222;
 }
 main section .login-container .option-con .search-con a{
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #222;
   margin-left: 20px;
 }

@@ -22,7 +22,7 @@ main section .sec-con{
   align-items: center;
 }
 .title h2{
-  font-size: 28px;
+  font-size: 1.75rem;
   font-family: var(--main-font-family);
   font-weight: 700;
   font-stretch: ultra-expanded;
@@ -78,14 +78,16 @@ main section.sec1 .sec-con .gallery ul li .banner-txt{
 }
 main section.sec1 .sec-con .gallery ul li .banner-txt p.banner-title{
   line-height: 40px;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: var(--main-font-family);
   font-weight: 700;
   color: var(--main-color);
   letter-spacing: 2px;
   word-spacing: 10px;
+  text-shadow: 3px 3px 3px rgb(189, 187, 187);
 }
 main section.sec1 .sec-con .gallery ul li .banner-txt p.banner-content{
+  text-shadow: 2px 2px 3px rgb(190, 190, 190);
   line-height: 25px;
   font-size: 20px;
   font-weight: 400;
@@ -210,6 +212,7 @@ main section.sec2 .sec-con .sec2-slide .slide-con ul li a p{
   height: auto;
   padding: 10px;
   box-sizing: border-box;
+  font-size: 1rem;
 }
 
 
@@ -255,6 +258,7 @@ main section.sec3 .sec-con .sec3-best ul li a img{
 main section.sec3 .sec-con .sec3-best ul li a p{
   padding: 20px 10px;
   line-height: 20px;
+  font-size: 1rem;
 }
 /* section4 */
 main section.sec4 .sec-con .sec4-top{
@@ -325,6 +329,7 @@ main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con ul li p{
   line-height: 20px;
   text-align: center;
   overflow: hidden;
+  font-size: 0.875rem;
 }
 main section.sec4 .sec-con .sec4-bottom{
   display: flex;
@@ -398,7 +403,7 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con{
   flex: 0 1 510px;
 }
 main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.title{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   line-height: 20px;
 }
@@ -409,7 +414,7 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.stars{
 }
 main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review{
   line-height: 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .bottom-right::-webkit-scrollbar{
   width: 5px;
@@ -436,9 +441,7 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
     height: 232px;
   }
   main section.sec2 .sec-con .sec2-slide .slide-con{
-    /* width: 382.9941%; */
-    /* height: 237px; */
-    width: 312.3456%;
+    width: 391.9753%;
     height: 192px;
   }
   main section.sec2 .sec-con .sec2-slide .slide-con ul{
@@ -487,12 +490,9 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
     margin: 40px 0 20px;
   }
   main section.sec4 .sec-con .sec4-top .sec4-thum{
-    /* flex: 0 1 608px; */
-    /* width: 608px; */
     width: 568px;
   }
   main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con{
-    /* width: 168.4210%; */
     width: 202.9929%;
     height: inherit;
   }

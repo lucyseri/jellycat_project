@@ -18,6 +18,7 @@ main section .join-container h1.title{
   margin-bottom: 40px;
   font-family: var(--main-font-family);
   font-weight: 700;
+  font-size: 1.75rem;
 }
 main section .join-container .form-con{
   width: 100%;
@@ -40,12 +41,12 @@ main section .join-container .form-con form ul li.joinBtn{
 main section .join-container .form-con form ul li input{
   border: 0;
   outline: 0;
-  font-size: 16px;
+  font-size: 1rem;
   flex: 0 1 300px;
   line-height: 24px;
 }
 main section .join-container .form-con form ul li input#joinBtn{
-  font-size: 18px;
+  font-size: 1.125rem;
   flex: 1;
   line-height: 50px;
   cursor: pointer;
@@ -64,10 +65,10 @@ main section .join-container .form-con form ul li span.check{
   border: 1px solid #ccc;
   border-radius: 25px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 14px;
 }
 main section .join-container .form-con form ul li p.checked{
   line-height: 24px;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
