@@ -84,12 +84,12 @@ main section.sec1 .sec-con .gallery ul li .banner-txt p.banner-title{
   color: var(--main-color);
   letter-spacing: 2px;
   word-spacing: 10px;
-  text-shadow: 3px 3px 3px rgb(189, 187, 187);
+  text-shadow: 3px 3px 3px rgba(189, 187, 187, 0.63);
 }
 main section.sec1 .sec-con .gallery ul li .banner-txt p.banner-content{
   text-shadow: 2px 2px 3px rgb(190, 190, 190);
   line-height: 25px;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   margin-top: 10px;
 }
@@ -214,10 +214,6 @@ main section.sec2 .sec-con .sec2-slide .slide-con ul li a p{
   box-sizing: border-box;
   font-size: 1rem;
 }
-
-
-
-
 .sec2-slide::-webkit-scrollbar{
   height: 5px;
 }
@@ -261,24 +257,24 @@ main section.sec3 .sec-con .sec3-best ul li a p{
   font-size: 1rem;
 }
 /* section4 */
+main section.sec4 .sec-con{
+  flex: 0 1 1400px !important;
+}
+main section.sec4 .sec-con .title {
+  max-width: 1240px;
+  margin: 0 auto;
+}
 main section.sec4 .sec-con .sec4-top{
   width: 100%;
   height: 140px;
   margin: 40px 0;
-  position: relative;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 main section.sec4 .sec-con .sec4-top .arrow.btn{
-  flex: 0 1 80px;
-  position: absolute;
+  flex: 0 1 30px;
   cursor: pointer;
-}
-main section.sec4 .sec-con .sec4-top .arrow.btn.left{
-  left: -40px;
-}
-main section.sec4 .sec-con .sec4-top .arrow.btn.right{
-  right: -40px;
 }
 main section.sec4 .sec-con .sec4-top .arrow.btn span.arrow{
   display: block;
@@ -295,13 +291,9 @@ main section.sec4 .sec-con .sec4-top .arrow.btn.right span.arrow.right{
   transform: rotate(45deg);
 }
 main section.sec4 .sec-con .sec4-top .sec4-thum{
-  width: 100%;
+  flex: 0 1 1240px;
   height: inherit;
   overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
 }
 main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con{
   width: 111.2903%;
@@ -332,10 +324,12 @@ main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con ul li p{
   font-size: 0.875rem;
 }
 main section.sec4 .sec-con .sec4-bottom{
+  width: 100%;
+  max-width: 1240px;
   display: flex;
   justify-content: space-between;
   gap: 60px;
-  margin: 60px 0;
+  margin: 60px auto;
 }
 main section.sec4 .sec-con .sec4-bottom .bottom-left{
   flex: 0 1 590px;
@@ -484,13 +478,23 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
     margin-right: 20px;
     float: left;
   }
+  main section.sec4 .sec-con{
+    flex: 0 1 648px !important;
+  }
+  main section.sec4 .sec-con .title {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
   main section.sec4 .sec-con .sec4-top{
     height: 120px;
     justify-content: center;
     margin: 40px 0 20px;
   }
   main section.sec4 .sec-con .sec4-top .sec4-thum{
-    width: 568px;
+    flex: 0 1 568px;
   }
   main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con{
     width: 202.9929%;
@@ -506,17 +510,9 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
   main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con ul li{
     flex: 0 1 100px;
   }
-  main section.sec4 .sec-con .sec4-top .arrow.btn{
-    flex: 0 1 40px;
-  }
-  main section.sec4 .sec-con .sec4-top .arrow.btn.left{
-    left: 0;
-  }
-  main section.sec4 .sec-con .sec4-top .arrow.btn.right{
-    right: 0;
-  }
   main section.sec4 .sec-con .sec4-bottom{
     display: block;
+    margin: 40px auto;
   }
   main section.sec4 .sec-con .sec4-bottom .bottom-right{
     margin-top: 40px;
