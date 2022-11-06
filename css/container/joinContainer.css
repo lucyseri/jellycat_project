@@ -72,3 +72,8 @@ main section .join-container .form-con form ul li p.checked{
   line-height: 24px;
   font-size: 0.75rem;
 }
+@media only screen and (max-width: 768px) {
+  main{
+    min-height: calc(100vh - 282px);
+  }
+}
