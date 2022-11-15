@@ -190,17 +190,17 @@ main section.sec2 .sec-con .sec2-slide .slide-con ul{
   width: 100%;
   height: inherit;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   gap: 40px;
 }
 main section.sec2 .sec-con .sec2-slide .slide-con ul li{
   flex: 0 1 216px;
-  height: inherit;
+  height: auto;
 }
 main section.sec2 .sec-con .sec2-slide .slide-con ul li a{
   display: block;
   width: 100%;
-  height: inherit;
+  height: auto;
 }
 main section.sec2 .sec-con .sec2-slide .slide-con ul li a img{
   width: 100%;
@@ -425,7 +425,7 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
    height: 540px;
   }
   main section.sec1 .sec-con .gallery ul li{
-    padding: 60px 100px;
+    padding: 60px 0;
   }
   main section.sec1 .sec-con .gallery ul li .banner-txt{
     text-align: center;
@@ -446,11 +446,9 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
   }
 
   main section.sec3 .sec-con .sec3-best ul{
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, minmax(132px, auto));
     grid-auto-rows: minmax(132px, auto);
-    gap: 40px;
   }
   main section.sec3 .sec-con .sec3-best ul li:nth-child(1){
     grid-area: 1/1/2/3;
@@ -483,14 +481,13 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
   }
   main section.sec4 .sec-con .title {
     width: 100%;
-    max-width: 1240px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
   }
   main section.sec4 .sec-con .sec4-top{
     height: 120px;
-    justify-content: center;
+    justify-content: space-between;
     margin: 40px 0 20px;
   }
   main section.sec4 .sec-con .sec4-top .sec4-thum{
@@ -516,5 +513,72 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
   }
   main section.sec4 .sec-con .sec4-bottom .bottom-right{
     margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  main section .sec-con{
+    flex: 0 1 440px;
+  }
+  main section.sec1 .sec-con{
+   height: 440px;
+  }
+  main section.sec1 .sec-con .gallery ul li .banner-img{
+    flex: 0 1 200px;
+  }
+  main section.sec2 .sec-con .sec2-slide{
+    width: 100%;
+    height: 560px;
+  }
+  main section.sec2 .sec-con .sec2-slide .slide-con{
+    /* width: 1880px; */
+    width: 427.273%;
+    height: 520px;
+  }
+  main section.sec2 .sec-con .sec2-slide .slide-con ul{
+    flex-wrap: wrap;
+  }
+  main section.sec2 .sec-con .sec2-slide .slide-con ul li{
+    flex: 0 1 200px;
+  }
+
+  main section.sec3 .sec-con .sec3-best ul{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, minmax(132px, auto));
+  }
+  main section.sec3 .sec-con .sec3-best ul li:nth-child(1){
+    grid-area: 1/1/2/2;
+  }
+  main section.sec3 .sec-con .sec3-best ul li:nth-child(1) a img{
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+  main section.sec3 .sec-con .sec3-best ul li:nth-child(2){
+    grid-area: 1/2/2/3;
+  }
+  main section.sec3 .sec-con .sec3-best ul li:nth-child(2) a img{
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+  main section.sec4 .sec-con{
+    flex: 0 1 440px !important;
+  }
+  main section.sec4 .sec-con .sec4-top{
+    height: 80px;
+  }
+  main section.sec4 .sec-con .sec4-top .sec4-thum{
+    flex: 0 1 300px;
+  }
+  main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con{
+    width: 260%;
+
+  }
+  main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con ul{
+    gap: 20px;
+  }
+  main section.sec4 .sec-con .sec4-top .sec4-thum .thum-con ul li{
+    flex: 0 1 60px;
   }
 }

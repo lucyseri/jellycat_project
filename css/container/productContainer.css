@@ -55,7 +55,7 @@ main section.sec2 .sec-con .best-product .card-con .card-gallery ul{
   width: 100%;
   height: inherit;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   gap: 40px;
 }
 main section.sec2 .sec-con .best-product .card-con .card-gallery ul li{
@@ -139,7 +139,7 @@ main section.sec3 .sec-con .section3-nav ul{
   gap: 40px;
 }
 main section.sec3 .sec-con .section3-nav ul li{
-  font-size: 28px;
+  font-size: 1.75rem;
   font-family: var(--main-font-family);
   font-weight: 700;
   cursor: pointer;
@@ -150,6 +150,8 @@ main section.sec3 .sec-con .product-list{
   height: auto;
 }
 main section.sec3 .sec-con .product-list ul{
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: start;
   gap: 40px;
@@ -198,23 +200,25 @@ main section.sec3 .sec-con .product-list ul li.more-box a{
   main section.sec1{
     height: 150px;
   }
+
   main section.sec2 .sec-con{
-    flex: 0 1 768px;
-    padding: 40px 60px 0;
+    flex: 0 1 648px;
+    padding: 40px 0 0;
     box-sizing: border-box;
   }
   main section.sec2 .sec-con .best-product{
-    height: 212px;
+    height: 232px;
   }
   main section.sec2 .sec-con .best-product .card-con .card-gallery{
-    width: 312.3456%;
+    width: 391.9753%;
+    /* width: 312.3456%; */
   }
   main section.sec2 .sec-con .best-product .card-con .card-gallery ul li{
     flex: 0 1 132px;
   }
   main section.sec3 .sec-con{
-    flex: 0 1 768px;
-    padding: 20px 60px 40px;
+    flex: 0 1 648px;
+    padding: 20px 0 40px;
     box-sizing: border-box;
   }
   main section.sec3 .sec-con .product-list ul li{
@@ -222,5 +226,34 @@ main section.sec3 .sec-con .product-list ul li.more-box a{
   }
   main section.sec3 .sec-con .product-list ul li.more-box{
     height: 142px;
+  }
+}
+@media only screen and (max-width: 480px){
+  main section.sec2 .sec-con{
+    flex: 0 1 440px;
+  }
+  main section.sec2 .sec-con .best-product{
+    height: 600px;
+  }
+  main section.sec2 .sec-con .best-product .card-con .card-gallery{
+    width: 318.182%;
+  }
+  main section.sec2 .sec-con .best-product .card-con .card-gallery ul{
+    flex-wrap: wrap;
+  }
+  main section.sec2 .sec-con .best-product .card-con .card-gallery ul li{
+    flex: 0 1 200px;
+  }
+  main section.sec3 .sec-con{
+    flex: 0 1 440px;
+  }
+  main section.sec3 .sec-con .product-list ul li{
+    flex: 0 1 200px;
+  }
+  main section.sec3 .sec-con .product-list ul li.more-box{
+    height: 210px;
+  }
+  main section.sec3 .sec-con .section3-nav ul li{
+    font-size: 1.5rem;
   }
 }

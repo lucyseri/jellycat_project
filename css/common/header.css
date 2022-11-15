@@ -231,3 +231,8 @@ header nav .short-gnb>ul>li ul.sub li a{
     display: none;
   }
 }
+@media only screen and (max-width: 480px) {
+  header nav{
+    flex: 0 1 440px;
+  }
+}
