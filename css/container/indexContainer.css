@@ -190,7 +190,6 @@ main section.sec2 .sec-con .sec2-slide .slide-con ul{
   width: 100%;
   height: inherit;
   display: flex;
-  justify-content: start;
   gap: 40px;
 }
 main section.sec2 .sec-con .sec2-slide .slide-con ul li{
@@ -418,6 +417,10 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
   border-radius: 25px;
 }
 @media only screen and (max-width:768px){
+  main section {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
   main section .sec-con{
     flex: 0 1 648px;
   }
@@ -539,7 +542,8 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
     flex-wrap: wrap;
   }
   main section.sec2 .sec-con .sec2-slide .slide-con ul li{
-    flex: 0 1 200px;
+    /* flex: 0 1 200px; */
+    flex: 0 1 10%;
   }
 
   main section.sec3 .sec-con .sec3-best ul{

@@ -61,11 +61,27 @@ footer .bottom-footer .bottom-fcon .rights .test img{
 
 @media only screen and (max-width:768px) {
   footer .top-footer{
-    padding: 0 60px;
+    padding: 0 20px;
     box-sizing: border-box;
-  }  
+  }
+  footer .top-footer .top-fcon{
+    flex: 0 1 684px;
+  }
+  footer .top-footer .top-fcon ul{
+    justify-content: start;
+    gap: 10px;
+  }
   footer .bottom-footer{
-    padding: 0 60px;
+    padding: 0 20px;
     box-sizing: border-box;
-  }  
+  }
+  footer .bottom-footer .bottom-fcon{
+    flex: 0 1 684px;
+  }
+  footer .bottom-footer .bottom-fcon address p{
+    font-size: 0.875rem;
+  }
+  footer .bottom-footer .bottom-fcon .rights p{
+    font-size: 0.875rem;
+  }
 }

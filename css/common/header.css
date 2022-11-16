@@ -218,6 +218,10 @@ header nav .short-gnb>ul>li ul.sub li a{
 }
 
 @media only screen and (max-width: 768px) {
+  header{
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
   header nav{
     flex: 0 1 648px;
   }

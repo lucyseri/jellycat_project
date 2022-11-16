@@ -197,10 +197,13 @@ main section.sec3 .sec-con .product-list ul li.more-box a{
 }
 
 @media only screen and (max-width:768px){
+  main{
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
   main section.sec1{
     height: 150px;
   }
-
   main section.sec2 .sec-con{
     flex: 0 1 648px;
     padding: 40px 0 0;
@@ -230,7 +233,7 @@ main section.sec3 .sec-con .product-list ul li.more-box a{
 }
 @media only screen and (max-width: 480px){
   main section.sec1{
-    height: 100px;
+    height: 90px;
   }
   main section.sec2 .sec-con{
     flex: 0 1 440px;
@@ -243,18 +246,24 @@ main section.sec3 .sec-con .product-list ul li.more-box a{
   }
   main section.sec2 .sec-con .best-product .card-con .card-gallery ul{
     flex-wrap: wrap;
+    gap: 3.38%;
   }
   main section.sec2 .sec-con .best-product .card-con .card-gallery ul li{
-    flex: 0 1 200px;
+    /* flex: 0 1 200px; */
+    flex: 0 1 13.85%;
   }
   main section.sec3 .sec-con{
     flex: 0 1 440px;
   }
   main section.sec3 .sec-con .product-list ul li{
-    flex: 0 1 200px;
+    /* flex: 0 1 200px; */
+    flex: 0 1 44%;
   }
   main section.sec3 .sec-con .product-list ul li.more-box{
     height: 210px;
+  }
+  main section.sec3 .sec-con .section3-nav ul{
+    gap: 20px;
   }
   main section.sec3 .sec-con .section3-nav ul li{
     font-size: 1.5rem;
