@@ -17,6 +17,7 @@ html, body {
 }
 body{
   font-family: 'Noto Sans KR', sans-serif;
+  background-color: #ffff;
 }
 a{
   text-decoration: none;
