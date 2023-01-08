@@ -75,7 +75,7 @@ main section.sec2 .sec-con .best-product .card-con .card-gallery ul li a img{
 }
 main section.sec2 .sec-con .best-product .card-con .card-gallery ul li a p{
   line-height: 20px;
-  padding: 10px;
+  padding: 20px 10px;
   box-sizing: border-box;
   font-size: 1rem;
 } 
@@ -173,7 +173,7 @@ main section.sec3 .sec-con .product-list ul li a img{
   display: block;
 }
 main section.sec3 .sec-con .product-list ul li a p{
-  padding: 10px;
+  padding: 20px 10px;
   box-sizing: border-box;
   line-height: 20px;
   font-size: 1rem;
