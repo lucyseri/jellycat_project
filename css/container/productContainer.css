@@ -30,6 +30,7 @@ main section.sec2 .sec-con h2.section2-title{
   font-family: var(--main-font-family);
   font-weight: 700;
   font-stretch: ultra-expanded;
+  line-height: 32px;
   word-spacing: 10px;
   color: var(--main-color);
 }
