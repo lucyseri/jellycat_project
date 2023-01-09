@@ -462,7 +462,7 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
     clear: both;
   }
   main section.sec3 .sec-con .sec3-best ul li:nth-child(1) a img{
-    width: 50%;
+    width: 132px;
     float: left;
     margin-right: 40px;
   }
@@ -475,8 +475,8 @@ main section.sec4 .sec-con .sec4-bottom .bottom-right>ul>li .review-con p.review
     clear: both;
   }
   main section.sec3 .sec-con .sec3-best ul li:nth-child(2) a img{
-    width: 50%;
-    margin-right: 20px;
+    width: 132px;
+    margin-right: 40px;
     float: left;
   }
   main section.sec4 .sec-con{
