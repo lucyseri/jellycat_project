@@ -110,7 +110,7 @@ main section.sec1 .sec-con .gallery ul li {
 main section.sec1 .sec-con .gallery ul li p{
   flex: 0 1 600px;
   font-size: 1.25rem;
-  line-height: 25px;
+  line-height: 26px;
   font-weight: 400;
   text-shadow: 2px 2px 3px rgb(190, 190, 190);
 }
@@ -118,7 +118,7 @@ main section.sec1 .sec-con .gallery ul li p strong{
   font-size: 2.5rem;
   font-family: var(--main-font-family);
   font-weight: 700;
-  line-height: 40px;
+  line-height: 50px;
   letter-spacing: 2px;
   word-spacing: 10px;
   text-shadow: 3px 3px 3px rgba(189, 187, 187, 0.63);
