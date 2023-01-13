@@ -1,9 +1,7 @@
-@import url(../common/footer.css);
-@import url(../common/header.css);
 @import url(../common/reset.css);
+@import url(../common/header.css);
+@import url(../common/footer.css);
 @import url(../container/joinContainer.css);
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
-
 header{
-  border-bottom: 1px solid #ccc;
+  box-shadow: 0px 0px 1px 0px;
 }

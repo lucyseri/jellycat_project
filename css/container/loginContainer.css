@@ -1,76 +1,105 @@
 main{
-  width: 100%;
-  min-height: calc(100vh - 330px);
-  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
   box-sizing: border-box;
 }
 main section{
-  display: flex;
-  justify-content: center;
-}
-main section .login-container{
   flex: 0 1 400px;
+  min-height: calc(100vh - 310px);
 }
-main section .login-container h1.title{
-  width: 100%;
-  text-align: center;
-  line-height: 30px;
-  margin-bottom: 40px;
-  font-family: 'Asap Condensed', sans-serif;
-  font-weight: 700;
-  font-size: 1.75rem;
-}
-main section .login-container .form-con{
-  width: 100%;
-}
-main section .login-container .form-con form ul li{
+main section .login-con{
   width: 100%;
   height: auto;
-  padding: 20px 0;
+  padding: 60px 0;
   box-sizing: border-box;
 }
-main section .login-container .form-con form ul li input{
+main section .login-con h2{
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-family: var(--main-font-family);
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 40px;
+  color: var(--main-color);
+}
+main section .login-con form{
   width: 100%;
-  border: 0;
-  outline: 0;
+  height: auto;
+  margin-bottom: 10px;
+}
+main section .login-con form input{
+  display: block;
+  outline: none;
+  border: none;
+}
+main section .login-con form ul{
+  margin-bottom: 40px;
+}
+main section .login-con form ul li{
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 20px 10px;
+}
+main section .login-con form ul li input{
   font-size: 1rem;
   line-height: 24px;
 }
-main section .login-container .form-con form ul li:not(:last-child){
-  border-bottom: 1px solid #ccc;
-}
-main section .login-container .form-con form ul li.loginBtn{
-  padding: 40px 0 20px;
-}
-main section .login-container .form-con form ul li input#formBtn{
-  font-size: 1.125rem;
-  line-height: 50px;
-  text-align: center;
-  background-color: #e6a29e00;
-  border-radius: 25px;
-  cursor: pointer;
-  border: 1px solid var(--main-background-colro);
-}
-main section .login-container .form-con form ul li input#formBtn:hover{
-  background-color: var(--main-background-colro);
-  font-weight: bolder;
-}
-main section .login-container .option-con{
+main section .login-con form span.loginBtn{
+  display: block;
   width: 100%;
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 1px solid var(--main-background-color);
+  box-sizing: border-box;
+}
+main section .login-con form span.loginBtn input{
+  font-size: 1.125rem;
+  text-align: center;
+  width: 100%;
+  height: inherit;
+  background-color: #fff;
+  cursor: pointer;
+}
+main section .login-con form span.loginBtn input:hover{
+  font-weight: bolder;
+  background-color: var(--main-background-color);
+}
+main section .login-con .option-con{
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: space-between;
 }
-main section .login-container .option-con .join-go a{
+main section .login-con .option-con span a{
   font-size: 0.875rem;
+  line-height: 20px;
+  margin: 0 10px;
   color: #222;
 }
-main section .login-container .option-con .search-con a{
-  font-size: 0.875rem;
-  color: #222;
-  margin-left: 20px;
+main section .login-con .option-con span.find a:first-child{
+  position: relative;
+}
+main section .login-con .option-con span.find a:first-child::after{
+  content: '';
+  display: block;
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  right: -14px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ccc;
 }
 @media only screen and (max-width: 768px) {
-  main{
-    min-height: calc(100vh - 282px);
+  main section{
+    min-height: calc(100vh - 270px);
+  }
+}
+@media only screen and (max-width: 480px) {
+  main section{
+    flex: 0 1 400px;
   }
 }

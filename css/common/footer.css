@@ -1,87 +1,71 @@
-/* footer */
 footer{
+  width: 100%;
+  height: auto;
   background-color: var(--main-color);
 }
 footer .top-footer{
+  padding: 0 20px;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   box-shadow: 0px 0px 0px 1px #fff;
 }
 footer .top-footer .top-fcon{
   flex: 0 1 1240px;
+  padding: 20px 0;
+  box-sizing: border-box;
 }
 footer .top-footer .top-fcon ul{
-  padding: 20px 0;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 footer .top-footer .top-fcon ul li{
   line-height: 20px;
-  color: #fff;
 }
 footer .top-footer .top-fcon ul li a{
-  color:inherit;
-  font-size: 1rem;
+  line-height: inherit;
+  color: #fff;
 }
 footer .bottom-footer{
   display: flex;
   justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 footer .bottom-footer .bottom-fcon{
   flex: 0 1 1240px;
 }
 footer .bottom-footer .bottom-fcon address{
-  padding: 20px 0;
   font-style: normal;
 }
 footer .bottom-footer .bottom-fcon address p{
+  line-height: 20px;
   color: #fff;
-  font-size: 1rem;
 }
-footer .bottom-footer .bottom-fcon .rights{
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0;
+footer .bottom-footer .bottom-fcon address p.rights{
+  margin-top: 20px;
 }
-footer .bottom-footer .bottom-fcon .rights p{
-  color: #fff;
-  font-size: 1rem;
-}
-footer .bottom-footer .bottom-fcon .rights .test{
-  flex: 0 1 196px;
-  display: flex;
-  justify-content: space-between;
-}
-footer .bottom-footer .bottom-fcon .rights .test img{
-  flex: 0 1 88px;
-  height: auto;
-  display: block;
-}
-
 @media only screen and (max-width:768px) {
-  footer .top-footer{
-    padding: 0 20px;
-    box-sizing: border-box;
-  }
   footer .top-footer .top-fcon{
-    flex: 0 1 684px;
+    flex: 0 1 648px;
   }
   footer .top-footer .top-fcon ul{
+    flex-wrap: wrap;
     justify-content: start;
-    gap: 10px;
-  }
-  footer .bottom-footer{
-    padding: 0 20px;
-    box-sizing: border-box;
+    gap: 20px;
   }
   footer .bottom-footer .bottom-fcon{
-    flex: 0 1 684px;
+    flex: 0 1 648px;
   }
   footer .bottom-footer .bottom-fcon address p{
     font-size: 0.875rem;
   }
-  footer .bottom-footer .bottom-fcon .rights p{
-    font-size: 0.875rem;
+}
+@media only screen and (max-width:480px) {
+  footer .top-footer .top-fcon{
+    flex: 0 1 440px;
+  }
+  footer .bottom-footer .bottom-fcon{
+    flex: 0 1 440px;
   }
 }

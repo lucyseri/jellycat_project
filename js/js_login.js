@@ -1,8 +1,8 @@
 'use strict';
-const loginForm=document.querySelector('form')
-const userId=loginForm.querySelector('#userId')
-const userPw=loginForm.querySelector('#userPw')
-const loginBtn=loginForm.querySelector('#formBtn')
+const loginForm=document.querySelector('form');
+const userId=loginForm.querySelector('#userId');
+const userPw=loginForm.querySelector('#userPw');
+const loginBtn=loginForm.querySelector('#loginBtn');
 
 loginBtn.addEventListener('click', ()=>{
   if(userId.value==''||userId.value.length<=0){

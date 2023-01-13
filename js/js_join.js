@@ -1,13 +1,13 @@
 'use strict';
-const joinBtn=document.querySelector('#joinBtn')
-const joinForm=document.querySelector('form')
-const userName=joinForm.querySelector('#userName')
-const userPhone=joinForm.querySelector('#userPhone')
-const userEmail=joinForm.querySelector('#userEmail')
-const userId=joinForm.querySelector('#userId')
-const userPw=joinForm.querySelector('#userPw')
-const userPw2=joinForm.querySelector('#userPw2')
-const pChecked=joinForm.querySelector('p')
+const joinForm = document.querySelector('form');
+const userName = joinForm.querySelector('#userName');
+const userPhone=joinForm.querySelector('#userPhone');
+const userEmail=joinForm.querySelector('#userEmail');
+const userId=joinForm.querySelector('#userId');
+const userPw=joinForm.querySelector('#userPw');
+const userPw2=joinForm.querySelector('#userPw2');
+const pChecked=joinForm.querySelector('p.checked');
+const joinBtn = joinForm.querySelector('#joinBtn');
 
 userPw2.addEventListener('keyup', (e)=>{
   const PWV=userPw.value;

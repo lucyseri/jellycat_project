@@ -1,84 +1,106 @@
 main{
-  width: 100%;
-  height: auto;
-  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
   box-sizing: border-box;
 }
 main section{
-  display: flex;
-  justify-content: center;
-}
-main section .join-container{
   flex: 0 1 500px;
+  min-height: calc(100vh - 310px);
 }
-main section .join-container h1.title{
-  width: 100%;
-  text-align: center;
-  line-height: 30px;
-  margin-bottom: 40px;
-  font-family: var(--main-font-family);
-  font-weight: 700;
-  font-size: 1.75rem;
-}
-main section .join-container .form-con{
-  width: 100%;
-}
-main section .join-container .form-con form ul li{
+main section .join-con{
   width: 100%;
   height: auto;
-  padding: 20px 0;
+  padding: 60px 0;
   box-sizing: border-box;
+}
+main section .join-con h2{
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-family: var(--main-font-family);
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 40px;
+  color: var(--main-color);
+}
+main section .join-con form{
+  width: 100%;
+  height: auto;
+}
+main section .join-con form input{
+  display: block;
+  outline: none;
+  border: none;
+}
+main section .join-con form ul{
+  margin-bottom: 40px;
+}
+main section .join-con form ul li{
+  padding: 20px 10px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+main section .join-con form ul li input{
+  font-size: 1rem;
+  line-height: 24px;
+}
+main section .join-con form ul li.flex{
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
-main section .join-container .form-con form ul li:not(:last-child){
-  border-bottom: 1px solid #ccc;
+main section .join-con form ul li.userPhone input{
+  flex: 0 1 400px;
 }
-main section .join-container .form-con form ul li.joinBtn{
-  padding: 40px 0;
-}
-main section .join-container .form-con form ul li input{
-  border: 0;
-  outline: 0;
-  font-size: 1rem;
-  flex: 0 1 300px;
-  line-height: 24px;
-}
-main section .join-container .form-con form ul li input#joinBtn{
-  font-size: 1.125rem;
-  flex: 1;
-  line-height: 50px;
-  cursor: pointer;
-  border-radius: 25px;
-  border: 1px solid var(--main-background-colro);
-  box-sizing: border-box;
-  background-color: #e6a29e00;
-}
-main section .join-container .form-con form ul li input#joinBtn:hover{
-  background-color: var(--main-background-colro);
-  font-weight: bolder;
-}
-main section .join-container .form-con form ul li span.check{
-  padding: 5px 10px;
-  box-sizing: border-box;
+main section .join-con form ul li.userPhone span{
+  display: block;
+  flex: 0 0 70px;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 20px;
+  padding: 0 10px;
   border: 1px solid #ccc;
-  border-radius: 25px;
+  border-radius: 10px;
+  box-sizing: border-box;
   cursor: pointer;
-  font-size: 0.75rem;
-  line-height: 14px;
 }
-main section .join-container .form-con form ul li p.checked{
-  line-height: 24px;
+main section .join-con form ul li.userPw2 input{
+  flex: 3;
+}
+main section .join-con form ul li.userPw2 p.checked{
+  flex: 1;
   font-size: 0.75rem;
+  line-height: 24px;
+  text-align: right;
+}
+main section .join-con form span.joinBtn{
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 1px solid var(--main-background-color);
+  box-sizing: border-box;
+}
+main section .join-con form span.joinBtn input{
+  font-size: 1.125rem;
+  text-align: center;
+  width: 100%;
+  height: inherit;
+  background-color: #fff;
+  cursor: pointer;
+}
+main section .join-con form span.joinBtn input:hover{
+  font-weight: bolder;
+  background-color: var(--main-background-color);
 }
 @media only screen and (max-width: 768px) {
-  main{
-    min-height: calc(100vh - 282px);
+  main section{
+    min-height: calc(100vh - 270px);
   }
 }
-@media only screen and (max-width: 480px){
-  main section .join-container{
+@media only screen and (max-width: 480px) {
+  main section{
     flex: 0 1 400px;
   }
 }
