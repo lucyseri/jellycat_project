@@ -34,8 +34,12 @@ footer .bottom-footer{
 }
 footer .bottom-footer .bottom-fcon{
   flex: 0 1 1240px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
 }
 footer .bottom-footer .bottom-fcon address{
+  flex: 0 1 1112px;
   font-style: normal;
 }
 footer .bottom-footer .bottom-fcon address p{
@@ -44,6 +48,11 @@ footer .bottom-footer .bottom-fcon address p{
 }
 footer .bottom-footer .bottom-fcon address p.rights{
   margin-top: 20px;
+}
+footer .bottom-footer .bottom-fcon .validator{
+  flex: 0 0 88px;
+}
+footer .bottom-footer .bottom-fcon .validator p{
 }
 @media only screen and (max-width:768px) {
   footer .top-footer .top-fcon{
@@ -67,5 +76,6 @@ footer .bottom-footer .bottom-fcon address p.rights{
   }
   footer .bottom-footer .bottom-fcon{
     flex: 0 1 440px;
+    gap: 20px;
   }
 }
