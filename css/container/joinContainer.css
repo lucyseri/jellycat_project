@@ -101,6 +101,9 @@ main section .join-con form span.joinBtn input:hover{
 }
 @media only screen and (max-width: 480px) {
   main section{
+    min-height: calc(100vh - 330px);
+  }
+  main section{
     flex: 0 1 400px;
   }
 }

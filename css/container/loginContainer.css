@@ -100,6 +100,9 @@ main section .login-con .option-con span.find a:first-child::after{
 }
 @media only screen and (max-width: 480px) {
   main section{
+    min-height: calc(100vh - 330px);
+  }
+  main section{
     flex: 0 1 400px;
   }
 }

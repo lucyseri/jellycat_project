@@ -101,28 +101,45 @@ main section.sec1 .sec-con .gallery ul li {
   flex: 1;
   height: inherit;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 40px 80px;
   box-sizing: border-box;
   background-color: rgb(255, 255, 255);
 }
-main section.sec1 .sec-con .gallery ul li p{
+main section.sec1 .sec-con .gallery ul li .banner-txt{
   flex: 0 1 600px;
-  font-size: 1.25rem;
-  line-height: 26px;
-  font-weight: 400;
-  text-shadow: 2px 2px 3px rgb(190, 190, 190);
 }
-main section.sec1 .sec-con .gallery ul li p strong{
+main section.sec1 .sec-con .gallery ul li .banner-txt p{
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 0 60px 0;
+  /* text-shadow: 2px 2px 3px rgb(190, 190, 190); */
+}
+main section.sec1 .sec-con .gallery ul li .banner-txt p strong{
   font-size: 2.5rem;
   font-family: var(--font-family);
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 2px;
   word-spacing: 10px;
-  text-shadow: 3px 3px 3px rgba(189, 187, 187, 0.63);
+  /* text-shadow: 3px 3px 3px rgba(189, 187, 187, 0.63); */
   color: var(--color);
+}
+main section.sec1 .sec-con .gallery ul li .banner-txt span{
+  display: block;
+  width: 150px;
+  height: 42px;
+  text-align: center;
+  padding: 5px 15px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+}
+main section.sec1 .sec-con .gallery ul li .banner-txt span a{
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 2rem;
 }
 main section.sec1 .sec-con .gallery ul li .banner-img{
   flex: 0 1 400px;
@@ -366,13 +383,21 @@ main section.sec4 .sec-con .bottom-con .reviews::-webkit-scrollbar-thumb{
   main section .sec-con {
     flex: 0 1 648px;
   }
+  main section.sec1 .sec-con {
+    height: 660px;
+  }
   main section.sec1 .sec-con .gallery ul li {
     flex-direction: column;
-    padding: 30px 40px;
+    padding: 60px 0;
+    box-sizing: border-box;
   }
-  main section.sec1 .sec-con .gallery ul li p{
+  main section.sec1 .sec-con .gallery ul li .banner-txt p{
     text-align: center;
     word-break: keep-all;
+    margin: 0 0 20px 0;
+  }
+  main section.sec1 .sec-con .gallery ul li .banner-txt span{
+    margin: 0 auto;
   }
   main section.sec2 .sec-con .slide-con .slide-items {
     width: 391.9753%;
@@ -442,6 +467,15 @@ main section.sec4 .sec-con .bottom-con .reviews::-webkit-scrollbar-thumb{
 @media only screen and (max-width:480px) {
   main section .sec-con {
     flex: 0 1 440px;
+  }
+  main section.sec1 .sec-con {
+    height: 600px;
+  }
+  main section.sec1 .sec-con .gallery ul li {
+    padding: 60px 20px;
+  }
+  main section.sec1 .sec-con .gallery ul li .banner-img{
+    flex: 0 1 320px;
   }
   main section.sec2 .sec-con .slide-con .slide-items {
     width: 427.273%;
