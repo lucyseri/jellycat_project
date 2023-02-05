@@ -475,7 +475,9 @@ main section.sec4 .sec-con .bottom-con .reviews::-webkit-scrollbar-thumb{
     padding: 60px 20px;
   }
   main section.sec1 .sec-con .gallery ul li .banner-img{
-    flex: 0 1 320px;
+    /* flex: 0 1 320px; */
+    width: 100%;
+    max-width: 320px;
   }
   main section.sec2 .sec-con .slide-con .slide-items {
     width: 427.273%;
