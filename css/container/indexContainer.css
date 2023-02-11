@@ -21,12 +21,12 @@ main section .sec-con .title {
 }
 main section .sec-con .title h2 {
   font-size: 1.75rem;
-  font-family: var(--font-family);
+  font-family: var(--main-font);
   font-weight: 700;
   font-stretch: ultra-expanded;
   word-spacing: 10px;
   line-height: 34px;
-  color: var(--color);
+  color: var(--main-color);
 }
 main section .sec-con .title span {
   display: block;
@@ -46,8 +46,8 @@ main section .sec-con span.arrow {
   display: block;
   width: 30px;
   height: 30px;
-  border-top: 3px solid var(--color);
-  border-right: 3px solid var(--color);
+  border-top: 3px solid var(--main-color);
+  border-right: 3px solid var(--main-color);
   box-sizing: border-box;
 }
 main section .sec-con span.arrow:hover {
@@ -72,7 +72,7 @@ main section .sec-con p.product-info{
   line-height: 20px;
 }
 .on {
-  background-color: var(--color);
+  background-color: var(--main-color);
 }
 
 /* section1 */
@@ -112,34 +112,34 @@ main section.sec1 .sec-con .gallery ul li .banner-txt{
 main section.sec1 .sec-con .gallery ul li .banner-txt p{
   font-size: 1.25rem;
   font-weight: 400;
-  line-height: 26px;
   margin: 0 0 60px 0;
-  /* text-shadow: 2px 2px 3px rgb(190, 190, 190); */
 }
 main section.sec1 .sec-con .gallery ul li .banner-txt p strong{
   font-size: 2.5rem;
-  font-family: var(--font-family);
+  font-family: var(--main-font);
   font-weight: 700;
-  line-height: 52px;
   letter-spacing: 2px;
   word-spacing: 10px;
-  /* text-shadow: 3px 3px 3px rgba(189, 187, 187, 0.63); */
-  color: var(--color);
+  color: var(--main-color);
 }
 main section.sec1 .sec-con .gallery ul li .banner-txt span{
   display: block;
-  width: 150px;
+  width: 130px;
   height: 42px;
   text-align: center;
-  padding: 5px 15px;
+  padding: 5px 0;
   border-radius: 25px;
   box-sizing: border-box;
-  background-color: var(--background-color);
+  border: 1px solid var(--point-color);
+}
+main section.sec1 .sec-con .gallery ul li .banner-txt span:hover{
+  background-color: var(--point-color);
 }
 main section.sec1 .sec-con .gallery ul li .banner-txt span a{
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
-  line-height: 2rem;
+  line-height: 30px;
+  text-align: center;
 }
 main section.sec1 .sec-con .gallery ul li .banner-img{
   flex: 0 1 400px;
@@ -182,13 +182,13 @@ main section.sec1 .sec-con .center-btn .items ul {
 main section.sec1 .sec-con .center-btn .items ul li {
   flex: 0 0 10px;
   height: 10px;
-  border: 1px solid var(--color);
+  border: 1px solid var(--main-color);
   border-radius: 50%;
   box-sizing: border-box;
   cursor: pointer;
 }
 main section.sec1 .sec-con .center-btn .items ul li:hover {
-  background-color: var(--color);
+  background-color: var(--main-color);
 }
 
 /* section2 */
@@ -224,7 +224,7 @@ main section.sec2 .sec-con .slide-con::-webkit-scrollbar {
   height: 5px;
 }
 main section.sec2 .sec-con .slide-con::-webkit-scrollbar-thumb {
-  background-color: var(--background-color);
+  background-color: var(--point-color);
   border-radius: 25px;
 }
 
@@ -312,10 +312,10 @@ main section.sec4 .sec-con .bottom-con .poster a{
   top: 50%;
   transform: translate(-50%);
   font-size: 1.5rem;
-  font-family: var(--font-family);
+  font-family: var(--main-font);
   font-weight: 700;
   font-stretch: ultra-expanded;
-  color: var(--color);
+  color: var(--main-color);
 }
 main section.sec4 .sec-con .bottom-con .poster:hover a{
   display: block;
@@ -331,7 +331,7 @@ main section.sec4 .sec-con .bottom-con .poster img{
 }
 main section.sec4 .sec-con .bottom-con .poster:hover img{
   opacity: 0.5;
-  border: 1px solid var(--background-color);
+  border: 1px solid var(--point-color);
 }
 main section.sec4 .sec-con .bottom-con .reviews{
   flex: 0 1 590px;
@@ -375,7 +375,7 @@ main section.sec4 .sec-con .bottom-con .reviews::-webkit-scrollbar{
   width: 5px;
 }
 main section.sec4 .sec-con .bottom-con .reviews::-webkit-scrollbar-thumb{
-  background-color: var(--background-color);
+  background-color: var(--point-color);
   border-radius: 25px;
 }
 

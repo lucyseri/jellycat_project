@@ -1,9 +1,9 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;700&family=Noto+Sans+KR:wght@400&display=swap');
 :root{
-  --color: #3d3b3b;
-  --background-color: #e6a29e;
-  --font-family: 'Asap Condensed', sans-serif;
+  --main-color: #3d3b3b;
+  --point-color: #e6a29e;
+  --main-font: 'Asap Condensed', sans-serif;
 }
 *{
   margin: 0;

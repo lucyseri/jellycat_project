@@ -17,11 +17,11 @@ main section .login-con{
 main section .login-con h2{
   font-size: 1.75rem;
   font-weight: 700;
-  font-family: var(--font-family);
+  font-family: var(--main-font);
   text-align: center;
   line-height: 40px;
   margin-bottom: 40px;
-  color: var(--color);
+  color: var(--main-color);
 }
 main section .login-con form{
   width: 100%;
@@ -52,7 +52,7 @@ main section .login-con form span.loginBtn{
   line-height: 50px;
   overflow: hidden;
   border-radius: 25px;
-  border: 1px solid var(--background-color);
+  border: 1px solid var(--point-color);
   box-sizing: border-box;
 }
 main section .login-con form span.loginBtn input{
@@ -65,7 +65,7 @@ main section .login-con form span.loginBtn input{
 }
 main section .login-con form span.loginBtn input:hover{
   font-weight: bolder;
-  background-color: var(--background-color);
+  background-color: var(--point-color);
 }
 main section .login-con .option-con{
   width: 100%;

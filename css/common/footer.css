@@ -1,7 +1,7 @@
 footer{
   width: 100%;
   height: auto;
-  background-color: var(--color);
+  background-color: var(--main-color);
 }
 footer .top-footer{
   padding: 0 20px;
@@ -51,8 +51,6 @@ footer .bottom-footer .bottom-fcon address p.rights{
 }
 footer .bottom-footer .bottom-fcon .validator{
   flex: 0 0 88px;
-}
-footer .bottom-footer .bottom-fcon .validator p{
 }
 @media only screen and (max-width:768px) {
   footer .top-footer .top-fcon{

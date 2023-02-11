@@ -60,7 +60,7 @@ header nav .top-header .goto ul li:not(:last-child) a::after{
   display: block;
   width: 2px;
   height: 10px;
-  background-color: var(--background-color);
+  background-color: var(--point-color);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -84,11 +84,11 @@ header nav .bottom-header .gnb>ul>li{
   font-size: 1.125rem;
 }
 header nav .bottom-header .gnb>ul>li>a{
-  font-family: var(--font-family);
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: inherit;
   line-height: 40px;
-  color: var(--color);
+  color: var(--main-color);
 }
 header nav .bottom-header .gnb>ul>li>ul.sub{
   display: none;
@@ -110,7 +110,7 @@ header nav .bottom-header .gnb>ul>li ul.sub li{
 }
 header nav .bottom-header .gnb>ul>li ul.sub li a{
   font-size: inherit;
-  font-family: var(--font-family);
+  font-family: var(--main-font);
   line-height: 30px;
   position: relative;
 }
@@ -123,7 +123,7 @@ header nav .bottom-header .gnb>ul>li ul.sub li a::after{
   left: 50%;
   transform: translateX(-50%);
   bottom: -3px;
-  background-color: var(--background-color);
+  background-color: var(--point-color);
   transition: all 0.3s;
 }
 header nav .bottom-header .gnb>ul>li ul.sub li a:hover::after{
@@ -135,7 +135,7 @@ header nav .bottom-header .gnb>ul>li ul.sub li a:hover::after{
   left: 50%;
   transform: translateX(-50%);
   bottom: -3px;
-  background-color: var(--background-color);
+  background-color: var(--point-color);
 }
 header nav .bottom-header .gnb .background{
   width: 100vw;
@@ -185,7 +185,7 @@ header nav .short-gnb>ul>li{
 header nav .short-gnb>ul>li>a{
   font-size: inherit;
   font-weight: 700;
-  font-family: var(--font-family);
+  font-family: var(--main-font);
   line-height: inherit;
 }
 header nav .short-gnb>ul>li>a:hover{
@@ -200,7 +200,7 @@ header nav .short-gnb>ul>li ul.sub li{
 }
 header nav .short-gnb>ul>li ul.sub li a{
   font-size: inherit;
-  font-family: var(--font-family);
+  font-family: var(--main-font);
   line-height: inherit;
 }
 
