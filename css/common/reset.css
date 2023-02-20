@@ -24,8 +24,3 @@ a{
 ul, li{
   list-style: none;
 }
-@media only screen and (max-width: 768px){
-  html{
-    font-size: 14px;
-  }
-}

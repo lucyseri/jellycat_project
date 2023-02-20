@@ -474,6 +474,12 @@ main section.sec4 .sec-con .bottom-con .reviews::-webkit-scrollbar-thumb{
   main section.sec1 .sec-con .gallery ul li {
     padding: 60px 20px;
   }
+  main section.sec1 .sec-con .gallery ul li .banner-txt p{
+    font-size: 1rem;
+  }
+  main section.sec1 .sec-con .gallery ul li .banner-txt p strong{
+    font-size: 2.125rem;
+  }
   main section.sec1 .sec-con .gallery ul li .banner-img{
     /* flex: 0 1 320px; */
     width: 100%;

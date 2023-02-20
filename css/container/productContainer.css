@@ -187,7 +187,7 @@ main section.sec3 .sec-con .list-items ul li.more-box a{
     gap: 20px;
   }
   main section.sec3 .sec-con .sec3-nav ul li{
-    font-size: 20px;
+    font-size: 1.375rem;
   }
   main section.sec3 .sec-con .list-items ul{
     grid-template-columns: repeat(4, 1fr);
